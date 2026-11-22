@@ -7,6 +7,7 @@ const switchButton = byId("switch-word");
 let memory, state, puzzle, category, cells, selected, activeWord, selectionVersion = 0;
 let pending = Promise.resolve();
 let gridColumns, gridRows;
+let gridZoom = 1, pinch, suppressTapUntil = 0;
 
 function read() {
   try {
@@ -201,6 +202,10 @@ function loadGame() {
   activeWord = undefined;
   selectionVersion++;
   byId("dock").hidden = true;
+  gridZoom = 1;
+  pinch = undefined;
+  suppressTapUntil = 0;
+  frame.scrollLeft = frame.scrollTop = 0;
   fitGrid();
   byId("status").textContent = "";
 }
@@ -211,8 +216,59 @@ function fitGrid() {
   const width = (frame.clientWidth - 8 - (gridColumns - 1)) / gridColumns;
   const height = (frame.clientHeight - 8 - (gridRows - 1)) / gridRows;
   const size = Math.max(2, Math.floor(Math.min(width, height, 44) * 10) / 10);
-  board.style.setProperty("--cell", size + "px");
+  board.style.setProperty("--cell", Math.min(64, size * gridZoom) + "px");
 }
+
+function pinchPoint(event) {
+  const touches = Array.from(event.touches).filter(touch => frame.contains(touch.target));
+  if (touches.length !== 2) return;
+  const [a, b] = touches;
+  const distance = Math.hypot(b.clientX - a.clientX, b.clientY - a.clientY);
+  if (distance < 1) return;
+  return {x:(a.clientX + b.clientX) / 2, y:(a.clientY + b.clientY) / 2, distance};
+}
+
+function startGridPinch(event) {
+  const point = pinchPoint(event);
+  if (!point || !puzzle) return;
+  const bounds = board.getBoundingClientRect();
+  if (!bounds.width || !bounds.height) return;
+  if (event.cancelable) event.preventDefault();
+  pinch = {
+    distance:point.distance, zoom:gridZoom,
+    x:(point.x - bounds.left) / bounds.width,
+    y:(point.y - bounds.top) / bounds.height
+  };
+}
+
+function moveGridPinch(event) {
+  const point = pinchPoint(event);
+  if (!point || !pinch) return;
+  if (event.cancelable) event.preventDefault();
+  gridZoom = Math.max(1, Math.min(6, pinch.zoom * point.distance / pinch.distance));
+  fitGrid();
+  const bounds = board.getBoundingClientRect();
+  frame.scrollLeft += bounds.left + pinch.x * bounds.width - point.x;
+  frame.scrollTop += bounds.top + pinch.y * bounds.height - point.y;
+}
+
+function endGridPinch(event) {
+  if (pinch && !pinchPoint(event)) {
+    pinch = undefined;
+    suppressTapUntil = performance.now() + 250;
+  }
+}
+
+frame.addEventListener("touchstart", startGridPinch, {passive:false});
+frame.addEventListener("touchmove", moveGridPinch, {passive:false});
+frame.addEventListener("touchend", endGridPinch);
+frame.addEventListener("touchcancel", endGridPinch);
+frame.addEventListener("click", event => {
+  if (event.detail && performance.now() < suppressTapUntil) {
+    event.preventDefault();
+    event.stopPropagation();
+  }
+}, true);
 
 function selectCell(position) {
   const choices = cells.get(position).words;

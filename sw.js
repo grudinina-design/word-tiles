@@ -1,6 +1,6 @@
 const scope = new URL(self.registration.scope);
 const prefix = "word-tiles:" + scope.pathname + ":";
-const version = prefix + "2";
+const version = prefix + "3";
 const shell = new URL("index.html", scope).href;
 const files = [
   "index.html", "style.css", "game.js", "puzzles.js", "install.js",
