@@ -1463,6 +1463,567 @@ const puzzles = [
     ]
   },
   {
+    "id": "normal-18", "category": "normal", "title": "A Fresh Look", "width": 9, "height": 12,
+    "words": [
+      ["COUNSEL", "A lawyer who pleads cases in court", 0, 3, "across"],
+      ["ARCH", "A curved shape in the vertical plane that spans an opening", 1, 0, "down"],
+      ["POLLS", "The place where people vote", 7, 0, "down"],
+      ["BRASS", "An alloy of copper and zinc", 2, 5, "across"],
+      ["SNAKE", "Limbless scaly elongate reptile", 5, 2, "down"],
+      ["FORCED", "Produced by or subjected to forcing", 0, 7, "across"],
+      ["APART", "Remote and separate physically or socially", 0, 1, "across"],
+      ["HOOK", "A catch for locking a door", 2, 5, "down"],
+      ["CORPS", "An army unit usually consisting of two or more divisions and their support", 4, 6, "down"],
+      ["BEAST", "A living organism characterized by voluntary movement", 0, 11, "across"],
+      ["ROBOT", "A mechanism that can move automatically", 3, 9, "across"],
+      ["PASTE", "Any mixture of a soft and malleable consistency", 8, 5, "down"]
+    ]
+  },
+  {
+    "id": "normal-19", "category": "normal", "title": "Common Ground", "width": 12, "height": 13,
+    "words": [
+      ["VIOLENT", "Acting with or marked by or resulting from great force or energy or emotional intensity", 7, 5, "down"],
+      ["TRACT", "An extended area of land", 2, 12, "across"],
+      ["SILENT", "Marked by absence of sound", 3, 6, "down"],
+      ["DELUXE", "Rich and superior in quality", 1, 10, "across"],
+      ["CHICK", "Young bird especially of domestic fowl", 0, 8, "across"],
+      ["ABSENCE", "The state of being absent", 1, 2, "down"],
+      ["BRAKE", "A restraint used to slow or stop a vehicle", 0, 4, "across"],
+      ["RELAX", "Become less tense, rest, or take one's ease", 3, 0, "down"],
+      ["GRASS", "Narrow-leaved green herbage: grown as lawns", 1, 1, "across"],
+      ["ADVERSE", "Contrary to your interests or welfare", 4, 6, "across"],
+      ["THROWN", "Caused to fall to the ground", 9, 3, "down"],
+      ["PACKED", "Pressed together or compressed", 11, 1, "down"]
+    ]
+  },
+  {
+    "id": "normal-20", "category": "normal", "title": "The Next Turn", "width": 11, "height": 12,
+    "words": [
+      ["TISSUE", "Create a piece of cloth by interlacing strands of fabric, such as wool or cotton", 1, 3, "across"],
+      ["DASH", "Distinctive and stylish elegance", 5, 0, "down"],
+      ["PATIO", "Usually paved outdoor area adjoining a residence", 2, 0, "down"],
+      ["WOOL", "A fabric made from the hair of sheep", 0, 5, "across"],
+      ["DRUM", "A musical percussion instrument", 4, 1, "across"],
+      ["OVAL", "Rounded like an egg", 3, 4, "down"],
+      ["PACKET", "A collection of things wrapped or boxed together", 1, 7, "across"],
+      ["SKILL", "An ability that has been acquired by training", 5, 5, "down"],
+      ["RETIRED", "No longer active in your work or profession", 7, 4, "down"],
+      ["PRIZE", "Goods or money obtained illegally", 5, 5, "across"],
+      ["ENQUIRY", "An instance of questioning", 10, 4, "down"],
+      ["QUIZ", "An examination consisting of a few short questions", 9, 1, "down"]
+    ]
+  },
+  {
+    "id": "normal-21", "category": "normal", "title": "Side by Side", "width": 12, "height": 12,
+    "words": [
+      ["COMPACT", "A small cosmetics case with a mirror", 4, 3, "across"],
+      ["DAWN", "The first light of day", 9, 1, "down"],
+      ["TONER", "A solution containing chemicals that can change the color of a photographic print", 6, 5, "across"],
+      ["SATURN", "A giant planet that is surrounded by three planar concentric rings of ice particles", 11, 0, "down"],
+      ["COATED", "Having or dressed in a coat", 5, 2, "down"],
+      ["DELIVER", "Bring to a destination, make a delivery", 4, 8, "across"],
+      ["SILLY", "A word used for misbehaving children", 8, 6, "down"],
+      ["BELLY", "The region of the body of a vertebrate between the thorax and the pelvis", 10, 6, "down"],
+      ["LAUNDRY", "Garments or white goods that can be cleaned by laundering", 1, 11, "across"],
+      ["FLEET", "Group of aircraft operating together under the same ownership", 0, 6, "across"],
+      ["SPOUSE", "A person's partner in marriage", 3, 0, "down"],
+      ["AFFORD", "Be able to spare or give up", 1, 4, "down"]
+    ]
+  },
+  {
+    "id": "normal-22", "category": "normal", "title": "A Word in Mind", "width": 10, "height": 13,
+    "words": [
+      ["BONE", "Rigid connective tissue that makes up the skeleton of vertebrates", 7, 4, "down"],
+      ["EBONY", "A very dark black", 4, 6, "across"],
+      ["MAYOR", "The head of a city government", 9, 3, "down"],
+      ["PIONEER", "Someone who helps to open up a new line of research or technology or art", 2, 8, "across"],
+      ["LOUNGE", "An upholstered seat for more than one person", 5, 0, "down"],
+      ["BLIND", "People who have severe visual impairments, considered as a group", 3, 1, "across"],
+      ["DIVING", "A headlong plunge into water", 0, 4, "across"],
+      ["SAVED", "Guarded from injury or destruction", 3, 1, "down"],
+      ["DURHAM", "English breed of short-horned cattle", 1, 3, "down"],
+      ["EXACT", "Claim as due or just", 8, 7, "down"],
+      ["RELAY", "A crew of workers who relieve another crew", 4, 10, "across"],
+      ["CONSULT", "Get or ask advice from", 1, 12, "across"]
+    ]
+  },
+  {
+    "id": "normal-23", "category": "normal", "title": "A Good Fit", "width": 10, "height": 12,
+    "words": [
+      ["BAKER", "Someone who bakes commercially", 4, 2, "across"],
+      ["WEAK", "Wanting in physical strength", 8, 0, "down"],
+      ["BUCK", "A gymnastic horse without pommels and with one end elongated", 5, 1, "down"],
+      ["STRIKE", "Deliver a sharp blow, as with the hand, fist, or weapon", 0, 5, "across"],
+      ["SAVER", "Someone who saves something from danger or violence", 3, 0, "down"],
+      ["BIAS", "Influence in an unfair way", 1, 1, "down"],
+      ["EASTER", "A wind from the east", 6, 4, "down"],
+      ["MERE", "A small pond of standing water", 2, 9, "across"],
+      ["SOIL", "The state of being covered with unclean things", 5, 7, "across"],
+      ["FOLD", "Bend or lay so that one part covers the other", 9, 4, "down"],
+      ["COMBO", "A small band of jazz musicians", 3, 6, "down"],
+      ["MOON", "Have dreamlike musings or fantasies while awake", 1, 11, "across"]
+    ]
+  },
+  {
+    "id": "normal-24", "category": "normal", "title": "In Plain View", "width": 11, "height": 12,
+    "words": [
+      ["RISING", "Advancing or becoming higher or greater in degree or value or status", 1, 3, "across"],
+      ["QUIT", "Put an end to a state or an activity", 5, 0, "down"],
+      ["EIGHT", "The cardinal number that is the sum of seven and one", 7, 0, "down"],
+      ["GRAVE", "Dignified and somber in manner or character and committed to keeping promises", 2, 1, "down"],
+      ["SEVERE", "Intensely or extremely bad or unpleasant in degree or quality", 0, 6, "across"],
+      ["SPEC", "A detailed description of design criteria for a piece of work", 1, 5, "down"],
+      ["VENUE", "In law: the jurisdiction where a trial will be held", 4, 4, "down"],
+      ["COMEDY", "Light and humorous drama with a happy ending", 0, 9, "across"],
+      ["MYTH", "A traditional story accepted as history", 6, 7, "down"],
+      ["HEATHER", "Interwoven yarns of mixed colors producing muted greyish shades with flecks of color", 1, 11, "across"],
+      ["TALL", "Great in vertical dimension", 6, 5, "across"],
+      ["ALLEGED", "Declared but not proved", 9, 3, "down"]
+    ]
+  },
+  {
+    "id": "normal-25", "category": "normal", "title": "A New Line", "width": 13, "height": 13,
+    "words": [
+      ["RENEWAL", "The conversion of wasteland into land suitable for use of habitation or cultivation", 0, 2, "across"],
+      ["WAKE", "Be awake, be alert, be there", 5, 1, "down"],
+      ["COLLECT", "Get or gather together", 0, 5, "across"],
+      ["FELLOW", "A boy or man", 2, 0, "down"],
+      ["STOCKS", "A frame that supports a boat while it is under construction", 7, 3, "down"],
+      ["THREADS", "Informal terms for clothing", 0, 9, "across"],
+      ["VITAL", "Performing an essential function in the living body", 1, 6, "down"],
+      ["CHEQUE", "A written order directing a bank to pay money", 4, 6, "down"],
+      ["MERGER", "The combination of two or more commercial companies", 2, 12, "across"],
+      ["ACCUSED", "A defendant in a criminal proceeding", 5, 7, "across"],
+      ["TOURIST", "Someone who travels for pleasure", 9, 4, "down"],
+      ["SINGLES", "Badminton played with one person on each side", 11, 1, "down"]
+    ]
+  },
+  {
+    "id": "normal-26", "category": "normal", "title": "The Other Way", "width": 11, "height": 12,
+    "words": [
+      ["MEAT", "The inner and usually edible part of a seed or grain or nut or fruit stone", 9, 0, "down"],
+      ["EYED", "Having an eye or eyes or eyelike feature especially as specified", 6, 2, "across"],
+      ["YEAH", "Not only so, but", 7, 0, "down"],
+      ["DANISH", "Light sweet yeast-raised roll usually filled with fruits or cheese", 1, 4, "across"],
+      ["ELDERLY", "People who are old collectively", 0, 1, "across"],
+      ["SYNC", "Make synchronous and adjust in time or manner", 6, 3, "down"],
+      ["SCOPE", "The state of the environment in which a situation exists", 4, 7, "across"],
+      ["PASSION", "A strong feeling or emotion", 3, 2, "down"],
+      ["BONUS", "Anything that tends to arouse", 0, 9, "across"],
+      ["VERBAL", "Communicated in the form of words", 1, 5, "down"],
+      ["RESUME", "Take up or begin anew", 9, 5, "down"],
+      ["MIXTURE", "Any foodstuff made by combining different ingredients", 2, 11, "across"]
+    ]
+  },
+  {
+    "id": "normal-27", "category": "normal", "title": "A Small Clue", "width": 12, "height": 12,
+    "words": [
+      ["STEREO", "Designating sound transmission from two sources through two channels", 0, 11, "across"],
+      ["WARE", "Articles of the same kind or material", 3, 7, "down"],
+      ["LITE", "Having relatively few calories", 5, 7, "down"],
+      ["SHORTS", "Trousers that end at or above the knee", 1, 5, "down"],
+      ["STAMP", "The distinctive form in which a thing is made", 0, 6, "across"],
+      ["LOVING", "Feeling or showing love and affection", 4, 8, "across"],
+      ["VISIBLE", "Capable of being seen", 8, 4, "down"],
+      ["FLOOD", "The rising of a body of water and its overflowing onto normally dry land", 6, 10, "across"],
+      ["VOTING", "A choice that is made by counting the number of people in favor of each alternative", 10, 2, "down"],
+      ["AWESOME", "Inspiring awe or admiration or wonder", 4, 0, "down"],
+      ["SOLELY", "Without any others being included or involved", 0, 3, "across"],
+      ["ARRANGE", "Put into a proper or systematic order", 0, 1, "across"]
+    ]
+  },
+  {
+    "id": "normal-28", "category": "normal", "title": "Putting It Together", "width": 10, "height": 13,
+    "words": [
+      ["FIRED", "Having lost your job", 0, 4, "across"],
+      ["MINOR", "Of lesser importance or stature or rank", 2, 2, "down"],
+      ["GRIP", "Hold fast or firmly", 0, 7, "across"],
+      ["TALE", "A message that tells the particulars of an act or occurrence or course of events", 4, 0, "down"],
+      ["SPOT", "A point located with respect to surface features of some region", 0, 1, "across"],
+      ["ANYWAY", "Used to indicate that a statement explains or supports a previous statement", 3, 2, "across"],
+      ["FABRIC", "Artifact made by weaving or felting or knitting or crocheting natural or synthetic fibers", 8, 0, "down"],
+      ["TRIM", "A state of arrangement or appearance", 5, 5, "across"],
+      ["TELLING", "An act of narration", 6, 4, "down"],
+      ["HEALING", "The natural process by which the body repairs itself", 0, 10, "across"],
+      ["SLAVE", "A person who is owned by someone", 4, 8, "across"],
+      ["BELIEF", "Any cognitive content held as true", 9, 6, "down"]
+    ]
+  },
+  {
+    "id": "normal-29", "category": "normal", "title": "Across Town", "width": 11, "height": 12,
+    "words": [
+      ["EMERALD", "A green transparent form of beryl", 1, 7, "across"],
+      ["PEER", "A person who is of equal standing with another in a group", 4, 5, "down"],
+      ["SEED", "A small hard fruit", 2, 5, "down"],
+      ["CASUAL", "Marked by blithe unconcern", 6, 5, "down"],
+      ["FLOPPY", "A small plastic magnetic disk enclosed in a stiff envelope with a radial slit", 4, 11, "across"],
+      ["PUPPY", "An inexperienced young person", 10, 6, "down"],
+      ["TIED", "Bound or secured closely", 8, 3, "down"],
+      ["REPRINT", "A separately printed article that originally appeared in a larger publication", 1, 4, "across"],
+      ["SEMI", "One of the two competitions in the next to the last round of an elimination tournament", 6, 0, "down"],
+      ["SEATS", "An area that includes places where several people can sit", 5, 1, "across"],
+      ["STICK", "An implement consisting of a length of wood", 10, 0, "down"],
+      ["BLONDE", "A person with fair skin and hair", 0, 2, "across"]
+    ]
+  },
+  {
+    "id": "normal-30", "category": "normal", "title": "Page by Page", "width": 12, "height": 12,
+    "words": [
+      ["FANCY", "Something many people believe that is false", 0, 4, "across"],
+      ["PLAZA", "A public square with room for pedestrians", 2, 1, "down"],
+      ["SPLIT", "Separate into parts or portions", 0, 2, "across"],
+      ["CIRCLE", "Ellipse in which the two axes are of equal length", 4, 0, "down"],
+      ["DATED", "Marked by features of the immediate and usually discounted past", 0, 6, "across"],
+      ["DRIVEN", "Compelled forcibly by an outside agency", 5, 5, "down"],
+      ["FIFTEEN", "The cardinal number that is the sum of fourteen and one", 0, 10, "across"],
+      ["LIFT", "Raise from a lower to a higher position", 3, 7, "down"],
+      ["SITTING", "Not moving and therefore easy to attack", 7, 4, "down"],
+      ["SIGHT", "An instance of visual perception", 6, 5, "across"],
+      ["WHEAT", "Annual or biennial grass having erect flower spikes and light brown grains", 11, 0, "down"],
+      ["HEADSET", "Receiver consisting of a pair of headphones", 10, 4, "down"]
+    ]
+  },
+  {
+    "id": "normal-31", "category": "normal", "title": "A Round of Words", "width": 11, "height": 12,
+    "words": [
+      ["RETAIN", "Allow to remain in a place or position or maintain a property or feature", 0, 5, "across"],
+      ["PACE", "The distance covered by a step", 2, 1, "down"],
+      ["BATCH", "All the loaves of bread baked at the same time", 0, 3, "across"],
+      ["ENHANCE", "Make better or more attractive", 6, 3, "down"],
+      ["TRIVIA", "Something of small importance", 0, 7, "across"],
+      ["TRIGGER", "Lever that activates the firing mechanism of a gun", 3, 4, "down"],
+      ["WARD", "A person who is under the protection or in the custody of another", 0, 11, "across"],
+      ["DEMO", "A visual presentation showing how something works", 4, 10, "across"],
+      ["HELLO", "An expression of greeting", 8, 5, "down"],
+      ["EMPTY", "A container that has been emptied", 5, 4, "across"],
+      ["SLIP", "A socially awkward or tactless act", 8, 0, "down"],
+      ["SCORES", "A large number or amount", 2, 1, "across"]
+    ]
+  },
+  {
+    "id": "normal-32", "category": "normal", "title": "A Change of Scene", "width": 10, "height": 12,
+    "words": [
+      ["TEACH", "Impart skills or knowledge to", 5, 0, "down"],
+      ["TREK", "Journey on foot, especially in the mountains", 4, 1, "across"],
+      ["COLON", "The part of the large intestine between the cecum and the rectum", 4, 4, "across"],
+      ["BOND", "An electrical force linking atoms", 9, 1, "down"],
+      ["SLIDE", "Move obliquely or sideways, usually in an uncontrolled manner", 7, 2, "down"],
+      ["TIRED", "Depleted of strength or energy", 3, 7, "across"],
+      ["PROBE", "An inquiry into unfamiliar or questionable activities", 0, 2, "across"],
+      ["SIXTH", "Position six in a countable series of things", 0, 5, "across"],
+      ["VICTOR", "A combatant who is able to defeat rivals", 2, 3, "down"],
+      ["ROVER", "Someone who leads a wandering unsettled life", 1, 9, "across"],
+      ["DOZEN", "The cardinal number that is the sum of eleven and one", 8, 6, "down"],
+      ["VIEWING", "The display of a motion picture", 2, 11, "across"]
+    ]
+  },
+  {
+    "id": "normal-33", "category": "normal", "title": "Find the Link", "width": 11, "height": 11,
+    "words": [
+      ["SEMINAR", "Any meeting for an exchange of ideas", 0, 4, "across"],
+      ["TWIN", "Either of two offspring born at the same time from the same pregnancy", 5, 0, "down"],
+      ["BLOW", "A powerful stroke with the fist or a weapon", 1, 2, "across"],
+      ["FLAME", "Shine with a sudden light", 3, 0, "down"],
+      ["PROVE", "Be shown or be found to be", 7, 2, "down"],
+      ["SAUCE", "Behave saucily or impudently towards", 2, 7, "across"],
+      ["SPIN", "Revolve quickly and repeatedly around one's own axis", 1, 3, "down"],
+      ["CLAY", "A very fine-grained soil that is plastic when moist but hard when fired", 6, 6, "down"],
+      ["LATEX", "A milky exudate from certain plants that coagulates on exposure to air", 4, 5, "down"],
+      ["ALIEN", "A person who comes from a foreign country", 5, 9, "across"],
+      ["HARMONY", "Compatibility in opinion and action", 10, 3, "down"],
+      ["THROAT", "The passage to the stomach and lungs", 4, 1, "across"]
+    ]
+  },
+  {
+    "id": "normal-34", "category": "normal", "title": "The Middle Ground", "width": 12, "height": 12,
+    "words": [
+      ["BUBBLE", "Flow in an irregular current with a bubbling noise", 3, 6, "across"],
+      ["CAKE", "Form a coat over", 9, 2, "down"],
+      ["CLIMATE", "The weather in some location averaged over some long period of time", 4, 4, "across"],
+      ["SWEET", "Having or denoting the characteristic taste of sugar", 11, 1, "down"],
+      ["TILL", "Unstratified soil deposited by a glacier", 6, 0, "down"],
+      ["RAISING", "The event of something being raised upward", 1, 2, "across"],
+      ["DADDY", "An informal term for a father", 3, 0, "down"],
+      ["BLOOM", "The organic process of bearing flowers", 7, 5, "down"],
+      ["SCROLL", "Move through text or graphics in order to display parts that do not fit on the screen", 3, 8, "across"],
+      ["CORP", "A business firm whose articles of incorporation have been approved in some state", 5, 7, "down"],
+      ["THEOREM", "A proposition deducible from basic postulates", 0, 10, "across"],
+      ["PLENTY", "As much as necessary", 1, 5, "down"]
+    ]
+  },
+  {
+    "id": "normal-35", "category": "normal", "title": "Turn the Page", "width": 11, "height": 13,
+    "words": [
+      ["BUNCH", "A grouping of a number of similar things", 3, 0, "down"],
+      ["CANCEL", "A notation cancelling a previous sharp or flat", 0, 3, "across"],
+      ["DOLL", "A small replica of a person", 6, 0, "down"],
+      ["COLORS", "A flag that shows its nationality", 1, 2, "down"],
+      ["SEEKER", "Someone making a search or inquiry", 0, 8, "across"],
+      ["SAKE", "A reason for wanting something done", 5, 4, "down"],
+      ["HERALD", "Something that precedes and indicates the approach of something or someone", 3, 6, "down"],
+      ["REDEEM", "Restore the honor or worth of", 0, 12, "across"],
+      ["CHARTER", "A document incorporating an institution and specifying its rights", 0, 10, "across"],
+      ["HARBOUR", "A sheltered port where ships can take on or discharge cargo", 3, 6, "across"],
+      ["BIOLOGY", "The science that studies living organisms", 8, 1, "down"],
+      ["EXTREME", "The furthest or highest degree of something", 10, 2, "down"]
+    ]
+  },
+  {
+    "id": "normal-36", "category": "normal", "title": "A Bit of Thinking", "width": 11, "height": 12,
+    "words": [
+      ["RALLY", "A large gathering of people intended to arouse enthusiasm", 0, 9, "across"],
+      ["VARY", "Be at variance with", 2, 7, "down"],
+      ["MILD", "Moderate in type or degree or effect or force", 4, 6, "down"],
+      ["MISSED", "Not caught with the senses or the mind", 3, 7, "across"],
+      ["RENEW", "Reestablish on a new, usually improved, basis or make new or like new", 8, 5, "down"],
+      ["HERO", "A man distinguished by exceptional courage and nobility and strength", 6, 9, "across"],
+      ["NORM", "A standard or model or pattern regarded as typical", 10, 7, "down"],
+      ["FLORIST", "Someone who grows and deals in flowers", 6, 1, "down"],
+      ["CAPTURE", "Succeed in representing or expressing something intangible", 0, 5, "across"],
+      ["COLOURS", "A flag that shows its nationality", 3, 3, "across"],
+      ["CURVE", "The trace of a point whose direction of motion changes", 9, 0, "down"],
+      ["MUTUAL", "Common to or shared by two or more parties", 2, 0, "down"]
+    ]
+  },
+  {
+    "id": "normal-37", "category": "normal", "title": "A Clear Trail", "width": 9, "height": 13,
+    "words": [
+      ["CAREFUL", "Exercising caution or showing care or attention", 6, 0, "down"],
+      ["MEAL", "The food served and eaten at one time", 4, 4, "across"],
+      ["SHELF", "A support that consists of a horizontal surface for holding objects", 8, 0, "down"],
+      ["DEALER", "Someone who purchases and maintains an inventory of goods to be sold", 2, 7, "across"],
+      ["TRAINED", "Shaped or conditioned or disciplined by training", 3, 0, "down"],
+      ["DUTY", "The social force that binds you to the courses of action demanded by that force", 0, 1, "across"],
+      ["DECIDE", "Reach, make, or come to a decision about something", 1, 0, "down"],
+      ["EPIC", "A long narrative poem telling of a hero's deeds", 4, 6, "down"],
+      ["TWINS", "The third sign of the zodiac", 1, 9, "across"],
+      ["RECALL", "A call to return", 8, 6, "down"],
+      ["SHUT", "Move so that an opening or passage is obstructed", 6, 8, "down"],
+      ["CRAFT", "The skilled practice of a practical occupation", 1, 12, "across"]
+    ]
+  },
+  {
+    "id": "normal-38", "category": "normal", "title": "Follow the Thread", "width": 12, "height": 12,
+    "words": [
+      ["BLUES", "A state of depression", 6, 9, "across"],
+      ["SEEK", "The movement of a read/write head to a specific data track on a disk", 10, 7, "down"],
+      ["FIBER", "A slender and greatly elongated substance capable of being spun into yarn", 7, 6, "down"],
+      ["GRIFFIN", "Winged monster with the head of an eagle and the body of a lion", 2, 7, "across"],
+      ["TENDER", "Something that can be used as an official medium of payment", 1, 11, "across"],
+      ["SEPT", "People descended from a common ancestor", 2, 7, "down"],
+      ["SETUP", "Equipment designed to serve a specific function", 0, 9, "across"],
+      ["CONCERN", "Something that interests you because it is important or affects you", 9, 0, "down"],
+      ["BILLING", "Request for payment of a debt", 3, 0, "down"],
+      ["TALENT", "Natural abilities or qualities", 4, 3, "across"],
+      ["LIBERTY", "Immunity from arbitrary exercise of authority: political independence", 0, 1, "across"],
+      ["STEAM", "Water at boiling temperature diffused in the atmosphere", 6, 5, "across"]
+    ]
+  },
+  {
+    "id": "normal-39", "category": "normal", "title": "A Different Take", "width": 12, "height": 13,
+    "words": [
+      ["DUAL", "Consisting of or involving two parts or components usually in pairs", 0, 7, "across"],
+      ["BIDDER", "Someone who makes an offer", 1, 4, "down"],
+      ["MEASURE", "Any maneuver made as part of progress toward a goal", 3, 4, "down"],
+      ["SERVING", "An individual quantity of food or drink taken as part of a meal", 1, 11, "across"],
+      ["SEEKING", "An attempt to acquire or gain something", 7, 5, "down"],
+      ["CLEARLY", "Without doubt or question", 4, 8, "across"],
+      ["DESTROY", "Do away with, cause the destruction or undoing of", 4, 6, "across"],
+      ["JIMMY", "To move or force, especially in an effort to get something open", 11, 1, "down"],
+      ["SQUIRT", "Someone who is small and insignificant", 8, 0, "down"],
+      ["PARISH", "A local church community", 3, 1, "across"],
+      ["ALLIED", "Related by common characteristics or ancestry", 5, 0, "down"],
+      ["COMPLY", "Act in accordance with someone's rules, commands, or wishes", 0, 3, "across"]
+    ]
+  },
+  {
+    "id": "normal-40", "category": "normal", "title": "The Next Page", "width": 9, "height": 13,
+    "words": [
+      ["THREAT", "Something that is a source of danger", 8, 6, "down"],
+      ["CAFE", "A small restaurant where drinks and snacks are sold", 4, 10, "across"],
+      ["VAST", "Unusually great in size or amount or degree or especially extent or scope", 6, 8, "down"],
+      ["DETECT", "Discover or determine the existence, presence, or fact of", 2, 7, "across"],
+      ["DRAWN", "Showing the wearing effects of overwork or care or suffering", 3, 6, "down"],
+      ["CLAN", "Group of people related by blood or marriage", 0, 9, "across"],
+      ["MACRO", "Very large in scale or scope or capability", 1, 6, "down"],
+      ["LANCE", "A long pointed rod used as a tool or weapon", 4, 2, "down"],
+      ["SHAVED", "Having the beard or hair cut off close to the skin", 1, 4, "across"],
+      ["BUSY", "Actively or fully engaged or occupied", 2, 1, "down"],
+      ["LIVER", "Having a reddish-brown color", 6, 0, "down"],
+      ["FLUX", "The rate of flow of energy or particles across a given surface", 4, 1, "across"]
+    ]
+  },
+  {
+    "id": "normal-41", "category": "normal", "title": "Right on Cue", "width": 10, "height": 13,
+    "words": [
+      ["SECRET", "Not open or public", 4, 6, "down"],
+      ["WELSH", "Cheat by avoiding payment of a gambling debt", 0, 7, "across"],
+      ["WEIRD", "Suggesting the operation of supernatural influences", 1, 6, "down"],
+      ["GRILL", "A framework of metal bars used as a partition or a grate", 2, 10, "across"],
+      ["MALL", "A public area set aside as a pedestrian walk", 7, 6, "down"],
+      ["VETERAN", "A serviceman who has seen considerable active service", 1, 12, "across"],
+      ["HAWK", "Diurnal bird of prey typically having short rounded wings and a long tail", 5, 8, "across"],
+      ["BOOKING", "Employment for performers or performing groups that lasts for a limited period of time", 9, 4, "down"],
+      ["PALACE", "A large and stately mansion", 2, 1, "down"],
+      ["SAVING", "An act of economizing", 0, 5, "across"],
+      ["CROWN", "Invest with regal power", 5, 0, "down"],
+      ["CODING", "Act of writing in code or cipher", 3, 3, "across"]
+    ]
+  },
+  {
+    "id": "normal-42", "category": "normal", "title": "A Familiar Sound", "width": 10, "height": 13,
+    "words": [
+      ["SMALLER", "Small or little relative to something else", 3, 0, "down"],
+      ["RIPE", "Fully developed or matured and ready to be eaten or used", 2, 7, "across"],
+      ["BRONZE", "An alloy of copper and tin and sometimes other elements", 6, 1, "down"],
+      ["FALLING", "Decreasing in amount or degree", 0, 5, "across"],
+      ["MESS", "A state of confusion and disorderliness", 0, 1, "across"],
+      ["QUAD", "One of four children born at the same time from the same pregnancy", 0, 3, "across"],
+      ["BALD", "With no effort to conceal", 5, 2, "across"],
+      ["EDITED", "Improved or corrected by critical editing", 9, 0, "down"],
+      ["PORTER", "A person employed to carry luggage and supplies", 5, 6, "down"],
+      ["HARDLY", "Only a very short time before", 2, 9, "across"],
+      ["PAYING", "Yielding a fair profit", 8, 6, "down"],
+      ["BULLET", "A projectile that is fired from a gun", 0, 11, "across"]
+    ]
+  },
+  {
+    "id": "normal-43", "category": "normal", "title": "Square by Square", "width": 11, "height": 12,
+    "words": [
+      ["BEAVER", "Work hard on something", 4, 3, "across"],
+      ["RELY", "Have confidence or faith in", 10, 2, "down"],
+      ["BULL", "Uncastrated adult male of domestic cattle", 6, 5, "across"],
+      ["GEEK", "A carnival performer who does disgusting acts", 6, 0, "down"],
+      ["BANNER", "Long strip of cloth or paper used for decoration or advertising", 7, 4, "down"],
+      ["CHEN", "Wild goose having white adult plumage", 4, 9, "across"],
+      ["MOROCCO", "A soft pebble-grained leather made from goatskin", 5, 4, "down"],
+      ["FAVOR", "An act of gracious kindness", 1, 11, "across"],
+      ["TYPING", "Writing done with a typewriter", 0, 1, "across"],
+      ["TUMOR", "An abnormal new mass of tissue that serves no purpose", 1, 0, "down"],
+      ["MAKER", "A person who makes things", 0, 7, "across"],
+      ["HACKER", "Someone who plays golf poorly", 3, 3, "down"]
+    ]
+  },
+  {
+    "id": "normal-44", "category": "normal", "title": "Between the Clues", "width": 11, "height": 12,
+    "words": [
+      ["SUPREME", "Final or last in your life or progress", 10, 0, "down"],
+      ["DAME", "A woman of refinement", 6, 7, "across"],
+      ["RULED", "Subject to a ruling authority", 7, 2, "down"],
+      ["CLONE", "A person who is almost identical to another", 5, 5, "across"],
+      ["WAGES", "A recompense for worthy acts or retribution for wrongdoing", 5, 1, "across"],
+      ["POLAR", "Having a pair of equal and opposite charges", 2, 3, "across"],
+      ["COOKIE", "The cook on a ranch or at a camp", 4, 0, "down"],
+      ["ANNEX", "An addition that extends a main building", 0, 6, "across"],
+      ["PLASMA", "A green slightly translucent variety of chalcedony used as a gemstone", 1, 0, "down"],
+      ["AHEAD", "Having the leading position or higher score in a contest", 8, 6, "down"],
+      ["BURDEN", "An onerous or difficult concern", 3, 9, "across"],
+      ["ALTERED", "Changed in form or character without becoming something else", 1, 11, "across"]
+    ]
+  },
+  {
+    "id": "normal-45", "category": "normal", "title": "A Wider View", "width": 11, "height": 13,
+    "words": [
+      ["COUPON", "A negotiable certificate that can be detached and redeemed as needed", 4, 4, "down"],
+      ["BURN", "Pain that feels hot as if it were on fire", 0, 10, "across"],
+      ["LAMP", "An artificial source of visible illumination", 0, 8, "across"],
+      ["AQUA", "A shade of blue tinged with green", 2, 7, "down"],
+      ["MARTIAL", "Suggesting war or military life", 1, 1, "down"],
+      ["MASSIVE", "Imposing in size or bulk or solidity", 0, 2, "across"],
+      ["BESIDES", "Making an additional point", 7, 0, "down"],
+      ["POSSESS", "Have as an attribute, knowledge, or skill", 2, 6, "across"],
+      ["SEVENTH", "Position seven in a countable series of things", 9, 5, "down"],
+      ["TRUNK", "The main stem of a tree", 5, 10, "across"],
+      ["BETA", "Second in order of importance", 6, 1, "across"],
+      ["FIFTY", "The cardinal number that is the product of ten and five", 5, 4, "across"]
+    ]
+  },
+  {
+    "id": "normal-46", "category": "normal", "title": "Something to Ponder", "width": 11, "height": 12,
+    "words": [
+      ["DOME", "A concave shape whose distinguishing characteristic is that the concavity faces downward", 0, 2, "across"],
+      ["POUR", "Move in large numbers", 2, 0, "down"],
+      ["TRAY", "An open receptacle for holding or displaying or serving articles or food", 0, 4, "across"],
+      ["TALKS", "A discussion intended to produce an agreement", 1, 3, "down"],
+      ["ARROW", "A mark to indicate a direction or relation", 3, 3, "down"],
+      ["ROCKET", "A jet engine containing its own propellant and driven by reaction propulsion", 2, 6, "across"],
+      ["HONEST", "Not disposed to cheat or defraud", 8, 0, "down"],
+      ["SLEEP", "A natural and periodic state of rest during which consciousness of the world is suspended", 5, 4, "across"],
+      ["BISHOP", "Port wine mulled with oranges and cloves", 4, 1, "across"],
+      ["ACROBAT", "An athlete who performs acts requiring skill and agility and coordination", 5, 4, "down"],
+      ["ARMED", "Having arms or arms as specified", 4, 10, "across"],
+      ["DUMP", "A coarse term for defecation", 7, 7, "down"]
+    ]
+  },
+  {
+    "id": "normal-47", "category": "normal", "title": "In Good Order", "width": 12, "height": 12,
+    "words": [
+      ["PYTHON", "A soothsaying spirit or a person who is possessed by such a spirit", 1, 3, "across"],
+      ["SING", "Produce tones with the voice", 7, 0, "down"],
+      ["VISA", "An endorsement made in a passport that allows the bearer to enter the country issuing it", 4, 1, "across"],
+      ["PILL", "Something that resembles a tablet of medicine in shape or size", 2, 2, "down"],
+      ["BLANKET", "Bedding that keeps a person warm in bed", 0, 6, "across"],
+      ["BOXED", "Enclosed in or set off by a border or box", 1, 5, "down"],
+      ["DIRT", "The part of the earth's surface consisting of humus and disintegrated rock", 0, 10, "across"],
+      ["REALITY", "All of your experiences that determine how things appear to you", 6, 4, "down"],
+      ["SISTER", "A female person who has the same parents as another person", 4, 9, "across"],
+      ["PROPOSE", "Make a proposal, declare a plan for something", 9, 2, "down"],
+      ["JOKE", "A humorous anecdote or remark intended to provoke laughter", 7, 7, "across"],
+      ["NICKEL", "A hard malleable ductile silvery metallic element that is resistant to corrosion", 11, 2, "down"]
+    ]
+  },
+  {
+    "id": "normal-48", "category": "normal", "title": "A Clear Pattern", "width": 12, "height": 13,
+    "words": [
+      ["SHARP", "A musical notation indicating one half step higher than the note named", 9, 3, "down"],
+      ["WORN", "Showing the wearing effects of overwork or care or suffering", 6, 7, "across"],
+      ["RESET", "Device for resetting instruments or controls", 6, 4, "across"],
+      ["SYNTAX", "The grammatical arrangement of words in sentences", 11, 0, "down"],
+      ["DIRTY", "Soiled or likely to soil with dirt or grime", 6, 2, "across"],
+      ["WEAPON", "Any instrument or instrumentality used in fighting or hunting", 7, 6, "down"],
+      ["FORMED", "Having or given a form or shape", 5, 11, "across"],
+      ["ABROAD", "In a foreign country", 2, 9, "across"],
+      ["MASSAGE", "Kneading and rubbing parts of the body to increase circulation and promote relaxation", 3, 4, "down"],
+      ["COMMIT", "Perform an act, usually with a negative connotation", 0, 5, "across"],
+      ["SOCKET", "A bony hollow into which a structure fits", 1, 2, "down"],
+      ["ASKING", "The verbal act of requesting", 5, 1, "down"]
+    ]
+  },
+  {
+    "id": "normal-49", "category": "normal", "title": "Closing the Gap", "width": 12, "height": 13,
+    "words": [
+      ["RANKED", "Arranged in a sequence of grades or ranks", 2, 11, "across"],
+      ["BEEF", "Cattle that are reared for their meat", 7, 8, "down"],
+      ["SWORD", "A cutting or thrusting weapon that has a long metal blade and a hilt with a hand guard", 3, 7, "down"],
+      ["ASSETS", "Anything of material value or usefulness that is owned by a person or company", 0, 8, "across"],
+      ["CALM", "Steadiness of mind under stress", 1, 6, "down"],
+      ["ASSUME", "Take to be the case or to be true", 4, 2, "down"],
+      ["FISHER", "Someone whose occupation is catching fish", 1, 5, "across"],
+      ["CHAPEL", "A place of worship that has its own altar", 1, 3, "across"],
+      ["COLORED", "Having color or a certain color", 7, 0, "down"],
+      ["EXCITED", "In an aroused state", 4, 1, "across"],
+      ["DELIGHT", "A feeling of extreme pleasure or satisfaction", 11, 0, "down"],
+      ["TORTURE", "Torment emotionally or mentally", 9, 0, "down"]
+    ]
+  },
+  {
+    "id": "normal-50", "category": "normal", "title": "The Fiftieth Grid", "width": 11, "height": 12,
+    "words": [
+      ["MILL", "Move about in a confused manner", 2, 7, "down"],
+      ["PLATE", "Coat with a layer of metal", 0, 11, "across"],
+      ["TUNE", "A succession of notes forming a distinctive sequence", 5, 7, "down"],
+      ["PUNK", "An aggressive and violent young criminal", 3, 9, "across"],
+      ["SPOKE", "Support consisting of a radial member of a wheel joining the hub to the rim", 7, 5, "down"],
+      ["SAVINGS", "A fund of money put by as a reserve", 0, 6, "across"],
+      ["ECHO", "The repetition of a sound resulting from reflection of the sound waves", 6, 10, "across"],
+      ["DRAGON", "A fiercely vigilant and unpleasant woman", 10, 5, "down"],
+      ["BOOST", "An increase in cost", 1, 2, "down"],
+      ["ANALOG", "Something having the property of being analogous to something else", 6, 0, "down"],
+      ["AVATAR", "A new personification of a familiar idea", 3, 1, "across"],
+      ["LUCKY", "Having or bringing good fortune", 5, 4, "across"]
+    ]
+  },
+  {
     "category": "hard", "id": "fine-print", "title": "The Fine Print", "width": 13, "height": 13,
     "legacyCells": {"14":[171],"15":[185],"16":[199],"17":[213],"18":[193,227],"19":[241],"20":[255],"21":[253,269],"22":[283],"29":[],"42":[],"43":[],"44":[],"45":[],"46":[],"47":[],"55":[],"64":[216],"66":[],"67":[],"68":[],"69":[],"70":[],"77":[217],"80":[],"88":[179,299],"90":[218],"93":[],"96":[22],"97":[36,89,271],"98":[50],"99":[64],"100":[78],"101":[92,193,227],"102":[106,287],"103":[120,219],"106":[],"108":[],"111":[],"114":[207,291],"116":[220],"119":[235,281],"120":[267,282],"121":[283],"122":[284],"123":[285,383],"124":[286],"125":[106,159,287],"127":[221],"129":[221],"132":[],"134":[],"137":[],"140":[235,281],"142":[222,281],"147":[],"150":[],"153":[225,249],"155":[223],"158":[],"159":[],"160":[],"161":[],"162":[],"163":[],"166":[263]},
     "compactCells": {"14":[45],"15":[46],"16":[47],"17":[48],"18":[49],"19":[50],"20":[51],"21":[52,123],"22":[53],"29":[],"42":[],"43":[],"44":[],"45":[],"46":[],"47":[],"55":[],"64":[80],"66":[],"67":[],"68":[],"69":[],"70":[],"77":[81],"80":[],"88":[31,172],"90":[82],"93":[],"96":[208],"97":[170,209],"98":[210],"99":[211],"100":[212],"101":[49,213],"102":[214],"103":[83,215],"106":[],"108":[],"111":[],"114":[67,91],"116":[84],"119":[103,106],"120":[124],"121":[142],"122":[160],"123":[178],"124":[196],"125":[214,260],"127":[85],"129":[85],"132":[],"134":[],"137":[],"140":[103,106],"142":[86,125],"147":[],"150":[],"153":[121],"155":[87],"158":[],"159":[],"160":[],"161":[],"162":[],"163":[],"166":[139]},
@@ -1803,6 +2364,227 @@ const puzzles = [
     ]
   },
   {
+    "id": "hard-18", "category": "hard", "title": "The Last Word", "width": 11, "height": 13,
+    "words": [
+      ["QUAKE", "Shake with fast, tremulous movements", 2, 1, "down"],
+      ["VENT", "A hole for the escape of gas or air", 0, 6, "across"],
+      ["ADAPT", "Make fit for, or change to suit a new purpose", 4, 1, "down"],
+      ["VACANT", "Void of thought or knowledge", 0, 4, "across"],
+      ["RUSTY", "Covered with or consisting of rust", 6, 0, "down"],
+      ["SPILL", "Flow, run or fall out and become lost", 5, 3, "across"],
+      ["SKINNY", "Confidential information about a topic or person", 8, 0, "down"],
+      ["VIVID", "Evoking lifelike images within the mind", 1, 5, "down"],
+      ["VANESSA", "Painted beauty and red admiral", 0, 8, "across"],
+      ["MAROON", "Leave stranded or isolated with little hope of rescue", 7, 6, "down"],
+      ["SHOOTER", "A large marble used for shooting in the game of marbles", 3, 11, "across"],
+      ["BEADED", "Covered with beads of liquid", 9, 6, "down"]
+    ]
+  },
+  {
+    "id": "hard-19", "category": "hard", "title": "Against the Grain", "width": 11, "height": 12,
+    "words": [
+      ["SIXTY", "The cardinal number that is the product of ten and six", 0, 11, "across"],
+      ["CHILI", "Very hot and finely tapering pepper of special pungency", 2, 6, "down"],
+      ["HARDY", "Having rugged physical strength", 5, 6, "down"],
+      ["CUSHION", "The layer of air that supports a hovercraft or similar vehicle", 1, 7, "across"],
+      ["PROTON", "A stable particle with positive charge equal to the negative charge of an electron", 3, 9, "across"],
+      ["SCOOTER", "Child's two-wheeled vehicle operated by foot", 7, 4, "down"],
+      ["AMNESTY", "A period during which offenders are exempt from punishment", 2, 5, "across"],
+      ["TILT", "To incline or bend from a vertical position", 8, 1, "down"],
+      ["SPIKE", "A transient variation in voltage or current", 5, 3, "across"],
+      ["SILVA", "The forest trees growing in a country or region", 3, 0, "down"],
+      ["STING", "A kind of pain", 0, 2, "across"],
+      ["SPARK", "A momentary flash of light", 1, 1, "down"]
+    ]
+  },
+  {
+    "id": "hard-20", "category": "hard", "title": "The Narrow Path", "width": 12, "height": 12,
+    "words": [
+      ["REACT", "Show a response or a reaction to something", 0, 5, "across"],
+      ["CURRY", "Season with a mixture of spices", 1, 2, "down"],
+      ["PAUSE", "A time interval during which there is a temporary cessation of something", 3, 3, "down"],
+      ["DEMON", "An evil supernatural being", 1, 8, "across"],
+      ["DULL", "Lacking in liveliness or animation", 2, 7, "down"],
+      ["BANKER", "A financier who owns or is an executive in a bank", 6, 5, "down"],
+      ["LUMBER", "The wood of trees cut and prepared for use as building material", 1, 10, "across"],
+      ["BUDDHA", "One who has achieved a state of perfect enlightenment", 5, 6, "across"],
+      ["TASTING", "A kind of sensing", 11, 4, "down"],
+      ["BURNED", "Treated by heating to a high temperature but below the melting or fusing point", 8, 0, "down"],
+      ["BOMBING", "An attack by dropping bombs", 4, 1, "across"],
+      ["PARSER", "A computer program that divides code up into functional components", 5, 3, "across"]
+    ]
+  },
+  {
+    "id": "hard-21", "category": "hard", "title": "A Sharp Eye", "width": 12, "height": 13,
+    "words": [
+      ["DENTIST", "A person qualified to practice dentistry", 4, 0, "down"],
+      ["RUST", "Become destroyed by water, air, or a corrosive such as an acid", 0, 7, "across"],
+      ["MUSE", "Reflect deeply on a subject", 0, 2, "across"],
+      ["PUPIL", "A learner who is enrolled in an educational institution", 2, 0, "down"],
+      ["GIFTED", "Endowed with talent or talents", 0, 4, "across"],
+      ["STARK", "Devoid of any qualifications or disguise or adornment", 3, 6, "across"],
+      ["MARKUP", "The amount added to the cost to determine the asking price", 8, 2, "down"],
+      ["DAEMON", "An evil supernatural being", 3, 1, "across"],
+      ["JUMPER", "A person who jumps", 4, 8, "across"],
+      ["RECRUIT", "A recently enlisted soldier", 10, 4, "down"],
+      ["THYROID", "Located near the base of the neck", 4, 10, "across"],
+      ["SPLASH", "A prominent or sensational but short-lived news event", 3, 6, "down"]
+    ]
+  },
+  {
+    "id": "hard-22", "category": "hard", "title": "Into the Details", "width": 12, "height": 13,
+    "words": [
+      ["OBLIQUE", "Any grammatical case other than the nominative", 0, 8, "across"],
+      ["MAYO", "Egg yolks and oil and vinegar", 1, 4, "down"],
+      ["GOOSE", "Pinch in the buttocks", 7, 3, "down"],
+      ["BOILER", "Sealed vessel where water is converted to steam", 3, 4, "down"],
+      ["FORGIVE", "Stop blaming or grant forgiveness", 0, 10, "across"],
+      ["WIDGET", "Something unspecified whose name is either forgotten or not known", 3, 4, "across"],
+      ["TITANIC", "Of great force or power", 9, 3, "down"],
+      ["SMASH", "With a loud crash", 6, 7, "across"],
+      ["SHALLOW", "Not deep or strong", 11, 5, "down"],
+      ["SWALLOW", "A small amount of liquid food", 4, 12, "across"],
+      ["INDIGO", "A blue dye obtained from plants or made synthetically", 5, 0, "down"],
+      ["REALISE", "Earn on some commercial or business transaction", 0, 1, "across"]
+    ]
+  },
+  {
+    "id": "hard-23", "category": "hard", "title": "The Difficult Bit", "width": 12, "height": 12,
+    "words": [
+      ["STIR", "A prominent or sensational but short-lived news event", 3, 3, "across"],
+      ["PROD", "A verbalization that encourages you to attempt something", 7, 1, "down"],
+      ["COSMIC", "Inconceivably extended in space or time", 4, 0, "down"],
+      ["COUCH", "An upholstered seat for more than one person", 0, 1, "across"],
+      ["EQUIP", "Provide with abilities or understanding", 0, 5, "across"],
+      ["BERG", "A large mass of ice floating at sea", 1, 3, "down"],
+      ["DWARF", "A person who is markedly small", 6, 5, "across"],
+      ["WARFARE", "The waging of armed conflict against an enemy", 9, 0, "down"],
+      ["DESSERT", "A dish served as the last course of a meal", 4, 7, "across"],
+      ["FATIGUE", "Lose interest or become bored with something or somebody", 11, 4, "down"],
+      ["BEATEN", "Formed or made thin by hammering", 6, 5, "down"],
+      ["HANDLER", "One who trains or exhibits animals", 0, 10, "across"]
+    ]
+  },
+  {
+    "id": "hard-24", "category": "hard", "title": "An Exact Meaning", "width": 12, "height": 13,
+    "words": [
+      ["PLUMP", "The sound of a sudden heavy fall", 0, 6, "across"],
+      ["SCRAP", "A small fragment of something broken off from the whole", 1, 1, "down"],
+      ["STAIN", "A soiled or discolored appearance", 0, 2, "across"],
+      ["RESTART", "Start an engine again, for example", 0, 4, "across"],
+      ["CLUTCH", "A tense critical situation", 7, 0, "down"],
+      ["LINER", "A protective covering that protects an inside surface", 6, 2, "across"],
+      ["PRIMER", "Any igniter that is used to initiate the burning of a propellant", 11, 0, "down"],
+      ["CEASE", "Put an end to a state or an activity", 6, 5, "across"],
+      ["HARNESS", "Exploit the power of", 9, 3, "down"],
+      ["VOUCHER", "Someone who vouches for another or for the correctness of a statement", 3, 8, "across"],
+      ["LIFTED", "Held up in the air", 2, 5, "down"],
+      ["MOVABLE", "Personal as opposed to real property", 4, 5, "down"]
+    ]
+  },
+  {
+    "id": "hard-25", "category": "hard", "title": "A Tricky Turn", "width": 11, "height": 12,
+    "words": [
+      ["DRAWER", "A boxlike container in a piece of furniture", 5, 1, "down"],
+      ["PAPA", "An informal term for a father", 1, 4, "across"],
+      ["NAPA", "Plant with an elongated head of broad stalked leaves resembling celery", 2, 1, "down"],
+      ["VOTER", "A citizen who has a legal right to vote", 0, 7, "across"],
+      ["STAKES", "The money risked on a gamble", 3, 5, "down"],
+      ["VAPOR", "A visible suspension in the air of particles of some substance", 1, 6, "down"],
+      ["SKULL", "The bony skeleton of the head of vertebrates", 2, 11, "across"],
+      ["FOIL", "A piece of thin and flexible sheet metal", 6, 7, "down"],
+      ["ESTEEM", "A feeling of delighted approval and liking", 4, 6, "across"],
+      ["WARMTH", "The sensation caused by heat energy", 7, 1, "down"],
+      ["COHORT", "A company of companions or supporters", 4, 9, "across"],
+      ["VIABLE", "Capable of being done with means at hand and circumstances as they are", 9, 0, "down"]
+    ]
+  },
+  {
+    "id": "hard-26", "category": "hard", "title": "Close to the Mark", "width": 12, "height": 12,
+    "words": [
+      ["INSURER", "A financial institution that sells insurance", 0, 7, "across"],
+      ["SOCK", "Hosiery consisting of a cloth covering for the foot", 3, 6, "down"],
+      ["RIVAL", "The contestant you hope to defeat", 7, 6, "down"],
+      ["ROGUE", "A deceitful and unreliable scoundrel", 5, 6, "down"],
+      ["BITTER", "Marked by strong resentment or cynicism", 1, 5, "down"],
+      ["ALLEY", "A narrow street with walls on both sides", 6, 10, "across"],
+      ["PULP", "Any soft or soggy mass", 9, 7, "down"],
+      ["VANITY", "Feelings of excessive pride", 11, 4, "down"],
+      ["MAMA", "Informal terms for a mother", 7, 6, "across"],
+      ["ATHLETE", "A person trained to compete in sports", 6, 0, "down"],
+      ["COMPASS", "Navigational instrument for finding directions", 1, 1, "across"],
+      ["CLEVER", "Showing self-interest and shrewdness in dealing with others", 1, 5, "across"]
+    ]
+  },
+  {
+    "id": "hard-27", "category": "hard", "title": "The Word Hunt", "width": 10, "height": 12,
+    "words": [
+      ["WELCH", "Cheat by avoiding payment of a gambling debt", 5, 6, "down"],
+      ["HANK", "A coil of rope or wool or yarn", 4, 11, "across"],
+      ["LOYAL", "Steadfast in allegiance or duty", 4, 9, "across"],
+      ["REFILL", "Fill something that had previously been emptied", 9, 4, "down"],
+      ["VASE", "An open jar of glass or porcelain used as an ornament or to hold flowers", 5, 6, "across"],
+      ["LOYALTY", "The quality of being loyal", 7, 2, "down"],
+      ["TAILOR", "A person whose occupation is making and altering garments", 3, 3, "across"],
+      ["RITUAL", "Any customary observance or practice", 4, 0, "down"],
+      ["DRIFT", "A force that moves something along", 2, 1, "across"],
+      ["GRAM", "A metric unit of weight equal to one thousandth of a kilogram", 1, 5, "across"],
+      ["SUEDE", "Leather with a napped surface", 0, 8, "across"],
+      ["POSED", "Arranged for pictorial purposes", 1, 5, "down"]
+    ]
+  },
+  {
+    "id": "hard-28", "category": "hard", "title": "An Open Question", "width": 11, "height": 12,
+    "words": [
+      ["WARN", "Notify of danger, potential harm, or risk", 4, 7, "across"],
+      ["RANT", "A loud bombastic declamation expressed with strong emotion", 6, 5, "down"],
+      ["BAIT", "Anything that serves as an enticement", 2, 9, "across"],
+      ["FAUX", "Not genuine or real", 4, 7, "down"],
+      ["SHINING", "The work of making something smooth and shiny by rubbing or waxing it", 8, 3, "down"],
+      ["DIOXIDE", "An oxide containing two atoms of oxygen in the molecule", 0, 11, "across"],
+      ["FRIED", "Cooked by frying in fat", 1, 6, "down"],
+      ["COUSIN", "The child of your aunt or uncle", 4, 4, "across"],
+      ["NEGLECT", "Lack of attention and due care", 10, 3, "down"],
+      ["SPICY", "Having an agreeably pungent taste", 5, 0, "down"],
+      ["BOOSTER", "A person who backs a politician or a team etc", 1, 1, "across"],
+      ["PREY", "Profit from in an exploitatory manner", 1, 5, "across"]
+    ]
+  },
+  {
+    "id": "hard-29", "category": "hard", "title": "The Deep End", "width": 11, "height": 12,
+    "words": [
+      ["MODEST", "Not large but sufficient in size or amount", 3, 5, "down"],
+      ["LIEU", "The post or function properly or customarily occupied or served by another", 0, 9, "across"],
+      ["IMPLY", "Express or state indirectly", 1, 5, "down"],
+      ["TANG", "A tart spicy quality", 2, 11, "across"],
+      ["OUTFIT", "Any cohesive unit such as a military company", 2, 7, "across"],
+      ["WEALTHY", "Having an abundant supply of money or possessions of value", 8, 2, "down"],
+      ["EIGHTH", "Position eight in a countable series of things", 5, 2, "down"],
+      ["BARBER", "A hairdresser who cuts hair and shaves beards as a trade", 0, 3, "across"],
+      ["GREASE", "The state of being covered with unclean things", 4, 5, "across"],
+      ["GREENS", "Any of various leafy plants or their leaves and stems eaten as vegetables", 10, 2, "down"],
+      ["SWAN", "To declare or affirm solemnly and formally as true", 2, 0, "down"],
+      ["SUPRA", "At an earlier place", 1, 1, "across"]
+    ]
+  },
+  {
+    "id": "hard-30", "category": "hard", "title": "The Thirtieth Grid", "width": 10, "height": 12,
+    "words": [
+      ["LATERAL", "A pass to a receiver upfield from the passer", 2, 4, "down"],
+      ["LEAP", "A light, self-propelled movement upwards or forwards", 0, 8, "across"],
+      ["SAMPLER", "An observation station that is set up to make sample observations of something", 4, 4, "down"],
+      ["VALE", "A long depression in the surface of the land that usually contains a river", 0, 10, "across"],
+      ["CLASH", "A loud resonant repeating noise", 0, 5, "across"],
+      ["RODEO", "An exhibition of cowboy skills", 3, 11, "across"],
+      ["BOUNCE", "The quality of a substance that is able to rebound", 7, 5, "down"],
+      ["COIL", "A structure consisting of something wound in a continuous series of loops", 5, 7, "across"],
+      ["ALOUD", "With relatively high volume", 9, 5, "down"],
+      ["SODA", "A sodium salt of carbonic acid", 3, 1, "down"],
+      ["SPITE", "Feeling a need to see others suffer", 2, 2, "across"],
+      ["NINTH", "Position nine in a countable series of things", 5, 0, "down"]
+    ]
+  },
+  {
     "category": "letter", "id": "letter-s", "title": "Starts With S", "width": 13, "height": 13,
     "legacyCells": {"18":[182,210,286,302],"19":[211],"20":[212,315],"21":[213],"22":[119,187,214,217],"23":[215],"24":[216],"25":[187,217,354],"31":[321],"35":[120],"38":[206],"42":[27,56],"44":[121,340],"46":[291],"47":[310],"48":[121,329,340],"49":[348,397],"50":[367],"51":[225,386],"55":[75],"57":[359],"61":[122],"64":[244],"66":[219,259,313],"67":[260],"68":[80,94,261],"69":[262],"70":[263,378],"71":[264],"74":[123],"77":[263],"79":[314],"81":[113],"83":[348,397],"85":[182,210,286,302],"86":[305],"87":[124,255,324],"88":[187,217,343],"89":[362],"90":[282,356,381],"92":[212,315],"94":[132],"100":[125],"105":[316],"107":[151],"111":[182,187,217,219,259,286,343],"112":[238],"113":[126,179,257,317,345],"114":[276],"115":[295],"116":[314],"118":[179,257,317,345],"120":[170],"124":[236],"131":[318],"136":[242],"137":[124,255,261],"138":[280],"139":[299],"140":[318],"141":[337],"142":[356],"150":[274,348],"163":[293]},
     "compactCells": {"18":[17,51],"19":[18],"20":[19,77],"21":[20],"22":[21,131],"23":[22],"24":[23],"25":[24,212],"31":[33],"35":[],"38":[213],"42":[159],"44":[49],"46":[],"47":[],"48":[49],"49":[97],"50":[],"51":[214],"55":[],"57":[65],"61":[],"64":[215],"66":[45,152],"67":[168],"68":[184],"69":[200],"70":[81,216],"71":[232],"74":[],"77":[216],"79":[61],"81":[],"83":[97],"85":[17,51],"86":[52],"87":[53,133],"88":[54,131],"89":[55],"90":[56,217],"92":[19,77],"94":[],"100":[],"105":[93],"107":[],"111":[51,54,131,152],"112":[153],"113":[109,154],"114":[155],"115":[156],"116":[157],"118":[109,154],"120":[],"124":[132],"131":[125],"136":[],"137":[133],"138":[],"139":[],"140":[],"141":[],"142":[],"150":[134],"163":[135]},
@@ -1877,6 +2659,278 @@ const puzzles = [
       ["MARBLE", "Polishable stone sometimes used for statues", 5, 0, "down"],
       ["MUSSEL", "Shellfish with a dark, elongated hinged shell", 4, 1, "across"],
       ["MARSH", "Wet area of land where grasses and reeds grow", 2, 3, "across"]
+    ]
+  },
+  {
+    "id": "letter-a", "category": "letter", "title": "Starts With A", "width": 10, "height": 12,
+    "words": [
+      ["AWARD", "A grant made by a law court", 0, 2, "across"],
+      ["ACID", "Harsh or corrosive in tone", 3, 1, "down"],
+      ["AUDIT", "Examine carefully for accuracy with the intent of verification", 0, 5, "across"],
+      ["ARRAY", "Lay out orderly or logically in a line or as if in a line", 1, 1, "down"],
+      ["ATTEND", "Take charge of or deal with", 5, 3, "down"],
+      ["ASSET", "A useful or valuable quality", 1, 7, "across"],
+      ["ALERT", "Condition of heightened watchfulness or preparation for action", 2, 6, "down"],
+      ["ADVICE", "A proposal for an appropriate course of action", 3, 9, "across"],
+      ["ANIME", "Any of various resins or oleoresins", 4, 4, "across"],
+      ["AGENT", "An active and efficient cause", 9, 6, "down"],
+      ["ASSIST", "Give help or assistance", 3, 11, "across"],
+      ["ANIMAL", "A living organism characterized by voluntary movement", 8, 0, "down"]
+    ]
+  },
+  {
+    "id": "letter-d", "category": "letter", "title": "Starts With D", "width": 11, "height": 13,
+    "words": [
+      ["DENTAL", "A consonant articulated with the tip of the tongue near the gum ridge", 4, 5, "across"],
+      ["DOUBT", "The state of being unsure of something", 8, 0, "down"],
+      ["DODGE", "An elaborate or deceitful scheme contrived to deceive or evade", 5, 1, "across"],
+      ["DRIVER", "The operator of a motor vehicle", 6, 0, "down"],
+      ["DELETE", "Remove or make invisible", 10, 2, "down"],
+      ["DEBATE", "Argue with one another", 4, 8, "across"],
+      ["DAMAGE", "The occurrence of a change for the worse", 8, 6, "down"],
+      ["DONATE", "Give to a charity or good cause", 4, 10, "across"],
+      ["DERIVED", "Formed or developed from something else", 2, 12, "across"],
+      ["DIAMOND", "Very hard native crystalline carbon valued as a gem", 3, 5, "down"],
+      ["DOCTOR", "A licensed medical practitioner", 0, 2, "across"],
+      ["DOUBLE", "A base hit on which the batter stops safely at second base", 1, 1, "down"]
+    ]
+  },
+  {
+    "id": "letter-e", "category": "letter", "title": "Starts With E", "width": 11, "height": 12,
+    "words": [
+      ["EXCEPT", "Prevent from being included or considered or accepted", 4, 7, "across"],
+      ["EARN", "Acquire or deserve by one's efforts or actions", 5, 6, "down"],
+      ["EAGLE", "Shoot two strokes under par", 8, 6, "down"],
+      ["ENEMY", "An opposing military force", 5, 11, "across"],
+      ["EDITOR", "A person responsible for the editorial aspects of publication", 10, 3, "down"],
+      ["EXTEND", "Stretch out over a distance, space, time, or scope", 4, 5, "across"],
+      ["ELITE", "Selected as the best", 5, 0, "down"],
+      ["EXPORT", "Sell or transfer abroad", 4, 1, "across"],
+      ["EXPERT", "A person with special knowledge or ability who performs skillfully", 0, 9, "across"],
+      ["EFFECT", "A phenomenon that follows and is caused by some previous phenomenon", 1, 5, "down"],
+      ["EQUAL", "Be identical or equivalent to", 0, 2, "across"],
+      ["ESCAPE", "Run away from confinement", 3, 4, "down"]
+    ]
+  },
+  {
+    "id": "letter-f", "category": "letter", "title": "Starts With F", "width": 11, "height": 11,
+    "words": [
+      ["FOLLOW", "To travel behind, go after, come after", 4, 8, "across"],
+      ["FELL", "Cause to fall by or as if by delivering a blow", 7, 4, "down"],
+      ["FILL", "A quantity sufficient to satisfy", 6, 5, "across"],
+      ["FORT", "A fortified military post where troops are stationed", 9, 6, "down"],
+      ["FIGHT", "A hostile meeting of opposing military forces in the course of a war", 4, 10, "across"],
+      ["FORCE", "A powerful effect or influence", 2, 6, "across"],
+      ["FUND", "A reserve of money set aside for some purpose", 3, 5, "down"],
+      ["FAULT", "A wrong action attributable to bad judgment or ignorance or inattention", 10, 1, "down"],
+      ["FOLDER", "A small book usually having a paper cover", 5, 0, "down"],
+      ["FUNDS", "Assets in the form of money", 4, 1, "across"],
+      ["FINALLY", "After an unspecified period of time or an especially long delay", 0, 3, "across"],
+      ["FUNNY", "Arousing or provoking laughter", 1, 2, "down"]
+    ]
+  },
+  {
+    "id": "letter-g", "category": "letter", "title": "Starts With G", "width": 11, "height": 11,
+    "words": [
+      ["GENTLE", "Cause to be more favorably inclined", 0, 5, "across"],
+      ["GEAR", "Set the level or character of", 2, 3, "down"],
+      ["GROW", "Pass into a condition gradually, take on a specific property or attribute", 0, 7, "across"],
+      ["GENDER", "The properties that distinguish organisms on the basis of their reproductive roles", 6, 3, "down"],
+      ["GANG", "An association of criminals", 1, 6, "down"],
+      ["GLAD", "Showing or causing joy and pleasure", 0, 10, "across"],
+      ["GIANT", "Any creature of exceptional size", 4, 0, "down"],
+      ["GIVING", "The imparting of news or promises etc", 0, 2, "across"],
+      ["GROSS", "Earn before taxes, expenses, etc", 4, 9, "across"],
+      ["GRADE", "A body of students who are taught together", 5, 4, "across"],
+      ["GLANCE", "Hit at an angle", 8, 1, "down"],
+      ["GENETIC", "Occurring among members of a family usually by heredity", 10, 0, "down"]
+    ]
+  },
+  {
+    "id": "letter-h", "category": "letter", "title": "Starts With H", "width": 12, "height": 12,
+    "words": [
+      ["HIKING", "A long walk usually for exercise or pleasure", 3, 3, "across"],
+      ["HELD", "Occupied or in the control of", 4, 2, "down"],
+      ["HANG", "A special way of doing something", 8, 0, "down"],
+      ["HEIGHT", "The vertical dimension of extension", 3, 1, "across"],
+      ["HANDS", "The force of workers available", 0, 6, "across"],
+      ["HEADER", "A line of text serving to indicate what the passage below it is about", 2, 3, "down"],
+      ["HELPING", "An individual quantity of food or drink taken as part of a meal", 0, 8, "across"],
+      ["HIGHLY", "To a high degree or extent", 7, 5, "down"],
+      ["HAPPY", "Enjoying or showing or marked by joy or pleasure", 2, 11, "across"],
+      ["HUMOR", "Put into a good mood", 6, 6, "across"],
+      ["HAVEN", "A shelter serving as a place of safety or sanctuary", 6, 9, "across"],
+      ["HUNTER", "Someone who hunts game", 11, 0, "down"]
+    ]
+  },
+  {
+    "id": "letter-i", "category": "letter", "title": "Starts With I", "width": 12, "height": 13,
+    "words": [
+      ["INTAKE", "An opening through which fluid is admitted to a tube or container", 0, 6, "across"],
+      ["INDIE", "A pop group not affiliated with a major record company", 1, 5, "down"],
+      ["INLAND", "Situated away from an area's coast or border", 0, 9, "across"],
+      ["INITIAL", "Occurring at the beginning", 3, 2, "down"],
+      ["INTRO", "Formally making a person known to another or to the public", 1, 4, "across"],
+      ["IGNORE", "Bar from attention or consideration", 6, 0, "down"],
+      ["IMAGINE", "Form a mental image of something that is not present or that is not the case", 1, 1, "across"],
+      ["IDEAL", "The idea of something that is perfect", 6, 7, "down"],
+      ["INSTANT", "Occurring with no delay", 1, 11, "across"],
+      ["INDOOR", "Located, suited for, or taking place within a building", 5, 8, "across"],
+      ["INQUIRY", "A search for knowledge", 11, 2, "down"],
+      ["INFORM", "Impart knowledge of some fact, state or affairs, or event to", 9, 4, "down"]
+    ]
+  },
+  {
+    "id": "letter-k", "category": "letter", "title": "Starts With K", "width": 10, "height": 11,
+    "words": [
+      ["KNOB", "A circular rounded projection or protuberance", 4, 4, "down"],
+      ["KITE", "A bank check that has been fraudulently altered to increase its face value", 3, 5, "across"],
+      ["KERN", "The part of a metal typeface that projects beyond its body", 7, 3, "down"],
+      ["KNOT", "A tight cluster of people or things", 5, 7, "across"],
+      ["KITTY", "The combined stakes of the betters", 9, 3, "down"],
+      ["KNIT", "A fabric made by knitting", 6, 6, "down"],
+      ["KISS", "A cookie made of egg whites and sugar", 4, 9, "across"],
+      ["KEEN", "A funeral lament sung with loud wailing", 0, 6, "across"],
+      ["KAYAK", "Travel in a small canoe", 1, 5, "down"],
+      ["KINASE", "An enzyme that catalyzes the conversion of a proenzyme to an active enzyme", 2, 0, "down"],
+      ["KNOCK", "Rap with the knuckles", 0, 3, "across"],
+      ["KICKING", "A rhythmic thrusting movement of the legs as in swimming or calisthenics", 1, 1, "across"]
+    ]
+  },
+  {
+    "id": "letter-l", "category": "letter", "title": "Starts With L", "width": 10, "height": 13,
+    "words": [
+      ["LODGE", "A formal association of people with similar interests", 0, 8, "across"],
+      ["LACK", "The state of needing something that is absent or unavailable", 1, 7, "down"],
+      ["LEAGUE", "An association of sports teams that organizes matches for its members", 5, 6, "down"],
+      ["LIKED", "Found pleasant or attractive", 1, 12, "across"],
+      ["LEAVE", "The period of time during which you are absent from work or duty", 4, 7, "across"],
+      ["LAWN", "A field of cultivated and mowed grass", 7, 5, "down"],
+      ["LETTER", "A written message addressed to a person or organization", 9, 5, "down"],
+      ["LINKED", "Connected by a link, as railway cars or trailer trucks", 3, 2, "down"],
+      ["LINEAR", "Designating or involving an equation whose terms are of the first degree", 2, 3, "across"],
+      ["LONGER", "A person with a strong desire for something", 0, 5, "across"],
+      ["LIKELY", "Has a good chance of being the case or of coming about", 1, 0, "down"],
+      ["LABOUR", "A social class comprising those who do manual labor or work for wages", 0, 1, "across"]
+    ]
+  },
+  {
+    "id": "letter-n", "category": "letter", "title": "Starts With N", "width": 10, "height": 11,
+    "words": [
+      ["NATIVE", "An indigenous person who was born in a particular place", 7, 1, "down"],
+      ["NEAT", "Showing care in execution", 3, 4, "across"],
+      ["NAVY", "An organization of military vessels belonging to a country and available for sea warfare", 4, 3, "down"],
+      ["NOON", "The middle of the day", 3, 2, "across"],
+      ["NOSE", "The organ of smell and entrance to the respiratory tract", 5, 0, "down"],
+      ["NECK", "A narrow elongated projecting strip of land", 5, 7, "across"],
+      ["NICK", "Cut slightly, with a razor", 9, 3, "down"],
+      ["NEST", "A structure in which animals lay eggs or give birth to their young", 6, 6, "down"],
+      ["NOISE", "The auditory experience of sound that lacks musical quality", 2, 9, "across"],
+      ["NERVE", "Get ready for something difficult or unpleasant", 0, 6, "across"],
+      ["NEWBIE", "Any new participant in some activity", 2, 0, "down"],
+      ["NOBLE", "A titled peer of the realm", 1, 5, "down"]
+    ]
+  },
+  {
+    "id": "letter-o", "category": "letter", "title": "Starts With O", "width": 10, "height": 13,
+    "words": [
+      ["OUTLINE", "The line that appears to bound an object", 0, 9, "across"],
+      ["ODDS", "The likelihood of a thing occurring rather than not occurring", 1, 8, "down"],
+      ["OMEGA", "The ending of a series or sequence", 7, 6, "down"],
+      ["OXIDE", "Any compound of oxygen with another element or a radical", 5, 6, "down"],
+      ["OPERATE", "Perform as expected when applied", 2, 11, "across"],
+      ["OWNER", "A person who owns something", 9, 7, "down"],
+      ["OUTLET", "A place of business for retailing goods", 3, 3, "down"],
+      ["ORGANIC", "A fertilizer that is derived from animal or vegetable matter", 2, 4, "across"],
+      ["OBTAIN", "Come into possession of", 6, 0, "down"],
+      ["ORACLE", "An authoritative person who divines the future", 9, 0, "down"],
+      ["OPINION", "A personal belief or judgment that is not founded on proof or certainty", 0, 1, "across"],
+      ["OBJECT", "A tangible and visible entity", 1, 0, "down"]
+    ]
+  },
+  {
+    "id": "letter-p", "category": "letter", "title": "Starts With P", "width": 11, "height": 13,
+    "words": [
+      ["PURPLE", "Of a color intermediate between red and blue", 7, 3, "down"],
+      ["PAIN", "A symptom of some physical hurt or disorder", 6, 7, "across"],
+      ["PORT", "Put or turn on the left side, of a ship", 6, 4, "across"],
+      ["PINK", "A light shade of red", 9, 5, "down"],
+      ["PURE", "Free of extraneous elements of any kind", 3, 9, "across"],
+      ["PULSE", "Expand and contract rhythmically", 5, 7, "down"],
+      ["PLEASED", "Experiencing or manifesting pleasure", 2, 12, "across"],
+      ["PARTNER", "An associate in an activity or endeavor or sphere of common interest", 0, 6, "across"],
+      ["PATENT", "A document granting an inventor sole rights to an invention", 1, 5, "down"],
+      ["POVERTY", "The state of having little or no money and few or no material possessions", 3, 1, "down"],
+      ["PORTAL", "A site that the owner positions as an entrance to other sites on the internet", 2, 2, "across"],
+      ["PRISON", "A correctional institution where persons are confined while on trial or for punishment", 5, 0, "down"]
+    ]
+  },
+  {
+    "id": "letter-r", "category": "letter", "title": "Starts With R", "width": 11, "height": 12,
+    "words": [
+      ["RETAIL", "The selling of goods to consumers", 0, 9, "across"],
+      ["RARE", "Recurring only at long intervals", 4, 7, "down"],
+      ["REAR", "The back of a military formation or procession", 2, 7, "down"],
+      ["REGULAR", "In accordance with fixed order or procedure or principle", 6, 4, "down"],
+      ["REMOTE", "A device that can be used to control a machine or apparatus from a distance", 0, 6, "across"],
+      ["RURAL", "Living in or characteristic of farming or country life", 5, 5, "across"],
+      ["ROYAL", "Stag with antlers of 12 or more branches", 5, 11, "across"],
+      ["RUGBY", "A form of football played with an oval ball", 8, 4, "down"],
+      ["REPLACE", "Take the place or move into the position of", 10, 1, "down"],
+      ["RANDOM", "Lacking any definite plan or order or purpose", 3, 0, "down"],
+      ["RENTAL", "Property that is leased or rented out or let", 0, 3, "across"],
+      ["REMAINS", "Any object that is left unused or still extant", 2, 1, "across"]
+    ]
+  },
+  {
+    "id": "letter-t", "category": "letter", "title": "Starts With T", "width": 11, "height": 11,
+    "words": [
+      ["TEND", "Have a tendency or disposition to do or be something", 1, 1, "across"],
+      ["TOUR", "A journey or route all the way around a particular place or area", 2, 0, "down"],
+      ["TRIPLE", "A base hit at which the batter stops safely at third base", 0, 4, "across"],
+      ["TEENS", "The time of life between the ages of 12 and 20", 6, 1, "down"],
+      ["THUS", "In the way indicated", 2, 6, "across"],
+      ["TOPS", "Of the highest quality", 1, 3, "down"],
+      ["TOUCH", "The event of something coming in contact with the body", 3, 5, "down"],
+      ["THANK", "Express gratitude or show appreciation to", 1, 10, "across"],
+      ["TURNING", "Act of changing in practice or custom", 1, 8, "across"],
+      ["TARGET", "A reference point to shoot at", 8, 4, "down"],
+      ["TWICE", "To double the degree", 5, 2, "across"],
+      ["TEACHER", "A person whose occupation is teaching", 10, 0, "down"]
+    ]
+  },
+  {
+    "id": "letter-u", "category": "letter", "title": "Starts With U", "width": 11, "height": 12,
+    "words": [
+      ["UNIFIED", "Formed or united into a whole", 3, 3, "down"],
+      ["UNIX", "Trademark for a powerful operating system", 0, 6, "across"],
+      ["UNUSUAL", "Not usual or common or ordinary", 1, 3, "down"],
+      ["UNION", "An organization of employees formed to bargain with the employer", 0, 8, "across"],
+      ["UNUSED", "Not yet used or soiled", 0, 4, "across"],
+      ["UNCLE", "The brother of your father or mother", 5, 6, "down"],
+      ["UGLY", "Displeasing to the senses", 4, 7, "across"],
+      ["UNLIKE", "Not equal in amount", 7, 4, "down"],
+      ["URGE", "Force or impel in an indicated direction", 6, 5, "across"],
+      ["USELESS", "Having no beneficial use or incapable of functioning usefully", 10, 2, "down"],
+      ["UPSET", "An unhappy and worried mental state", 5, 0, "down"],
+      ["UPWARD", "Spatially or metaphorically from a lower to a higher position", 4, 1, "across"]
+    ]
+  },
+  {
+    "id": "letter-w", "category": "letter", "title": "Starts With W", "width": 12, "height": 12,
+    "words": [
+      ["WARNING", "A message informing of danger", 0, 8, "across"],
+      ["WISE", "A way of doing or being", 1, 7, "down"],
+      ["WIRE", "Provide with electrical circuits", 5, 6, "down"],
+      ["WORST", "The least favorable outcome", 3, 5, "down"],
+      ["WINNING", "Succeeding with great difficulty", 7, 1, "down"],
+      ["WORSHIP", "The activity of worshipping", 1, 3, "across"],
+      ["WORTH", "An indefinite quantity of something having a specified value", 4, 0, "down"],
+      ["WIDELY", "To a great degree", 5, 6, "across"],
+      ["WEEKLY", "Without missing a week", 11, 0, "down"],
+      ["WELFARE", "Governmental provision of economic assistance to persons in need", 9, 4, "down"],
+      ["WATERS", "The serous fluid in which the embryo is suspended inside the amnion", 5, 11, "across"],
+      ["WAIT", "Time during which some action is awaited", 7, 9, "across"]
     ]
   },
   {
@@ -1957,6 +3011,618 @@ const puzzles = [
       ["RIVET", "Metal fastener with a head that secures pieces together", 5, 1, "across"],
       ["LOOM", "Frame on which yarn is woven into cloth", 7, 6, "down"],
       ["CLAMP", "Tool that holds pieces together while glue dries", 3, 10, "across"]
+    ]
+  },
+  {
+    "id": "birdwatching", "category": "theme", "title": "Birdwatching", "width": 9, "height": 12,
+    "words": [
+      ["SNIPE", "Old or New World straight-billed game bird of the sandpiper family", 4, 5, "down"],
+      ["TERN", "Slender seabird that dives for fish and often has a forked tail", 0, 7, "across"],
+      ["RAVEN", "Large black bird with a straight bill and long wedge-shaped tail", 0, 10, "across"],
+      ["JAY", "Colorful member of the crow family, often with blue markings", 2, 8, "down"],
+      ["IBIS", "Wading birds of warm regions having long slender down-curved bills", 3, 8, "across"],
+      ["ROBIN", "Small songbird famous for its reddish breast", 6, 4, "down"],
+      ["WREN", "Very small bird that often holds its tail upright", 4, 5, "across"],
+      ["FINCH", "Any of numerous small songbirds with short stout bills adapted for crushing seeds", 8, 2, "down"],
+      ["MAGPIE", "Long-tailed black-and-white crow that utters a raucous chattering call", 2, 1, "down"],
+      ["LARK", "Songbird famous for singing as it rises into the sky", 0, 3, "across"],
+      ["AUK", "Black-and-white seabird related to the puffin", 4, 0, "down"],
+      ["FALCON", "Diurnal birds of prey having long pointed powerful wings adapted for swift flight", 2, 1, "across"]
+    ]
+  },
+  {
+    "id": "on-the-farm", "category": "theme", "title": "On the Farm", "width": 10, "height": 11,
+    "words": [
+      ["FOAL", "A young horse of either sex", 0, 7, "across"],
+      ["COLT", "A young male horse", 4, 4, "down"],
+      ["FLOCK", "A group of sheep or birds", 2, 4, "down"],
+      ["TROUGH", "Long open container from which farm animals eat or drink", 3, 8, "across"],
+      ["CORRAL", "A pen for cattle", 3, 5, "across"],
+      ["HAY", "Grass mowed and cured for use as fodder", 8, 3, "down"],
+      ["BARN", "An outlying farm building for storing grain or animal feed and housing farm animals", 6, 2, "down"],
+      ["LAMB", "A young sheep", 2, 3, "across"],
+      ["SHED", "An outbuilding with a single story", 9, 6, "down"],
+      ["FIELD", "A piece of land cleared of trees and usually enclosed", 4, 10, "across"],
+      ["SILO", "Tall structure used to store grain", 3, 0, "down"],
+      ["STABLE", "A farm building for housing horses or other livestock", 2, 1, "across"]
+    ]
+  },
+  {
+    "id": "at-the-bakery", "category": "theme", "title": "At the Bakery", "width": 11, "height": 11,
+    "words": [
+      ["BUN", "Small rounded bread either plain or sweet", 5, 5, "across"],
+      ["BAGEL", "Ring-shaped roll boiled before baking", 6, 4, "down"],
+      ["FLOUR", "Fine powdery foodstuff obtained by grinding and sifting the meal of a cereal grain", 4, 9, "across"],
+      ["TART", "Small open pastry with a sweet or savory filling", 9, 6, "down"],
+      ["DOUGH", "A flour mixture stiff enough to knead or roll", 2, 7, "across"],
+      ["KNEAD", "Work dough by pressing and folding it", 3, 2, "down"],
+      ["OVEN", "Kitchen appliance used for baking or roasting", 8, 1, "down"],
+      ["SCONE", "A small baked cake often served with jam and cream", 5, 2, "across"],
+      ["YEAST", "Any of various single-celled fungi that reproduce asexually by budding or division", 10, 0, "down"],
+      ["RYE", "Grain used in some dark breads", 0, 5, "across"],
+      ["PRETZEL", "Glazed and salted cracker typically in the shape of a loose knot", 1, 3, "down"],
+      ["LOAF", "A shaped mass of baked bread that is usually sliced before eating", 0, 10, "across"]
+    ]
+  },
+  {
+    "id": "on-the-breakfast-table", "category": "theme", "title": "On the Breakfast Table", "width": 11, "height": 11,
+    "words": [
+      ["JAM", "Sweet fruit preserve spread on bread", 7, 6, "across"],
+      ["JUICE", "The liquid part that can be extracted from plant or animal tissue by squeezing or cooking", 8, 5, "down"],
+      ["EGG", "A hen’s product that can be fried or scrambled", 7, 10, "across"],
+      ["FRUIT", "The ripened reproductive body of a seed plant", 4, 8, "across"],
+      ["WAFFLE", "Batter cake cooked in a grid-patterned iron", 5, 4, "down"],
+      ["COCOA", "Powder of ground roasted cacao beans with most of the fat removed", 9, 1, "down"],
+      ["BACON", "Thin strips of cured pork often fried for breakfast", 5, 3, "across"],
+      ["TOAST", "Bread browned on both sides with dry heat", 7, 0, "down"],
+      ["HONEY", "A sweet yellow liquid produced by bees", 1, 10, "across"],
+      ["OMELET", "Beaten eggs or an egg mixture cooked until just set", 1, 1, "across"],
+      ["CEREAL", "A breakfast food prepared from grain", 0, 6, "across"],
+      ["PANCAKE", "A flat cake of thin batter fried on both sides on a griddle", 1, 2, "down"]
+    ]
+  },
+  {
+    "id": "fruit-bowl", "category": "theme", "title": "Fruit Bowl", "width": 10, "height": 11,
+    "words": [
+      ["PEAR", "Sweet juicy gritty-textured fruit available in many varieties", 5, 6, "down"],
+      ["DATE", "Sweet brown fruit from a palm tree", 1, 8, "across"],
+      ["GRAPE", "Any of various juicy fruit of the genus Vitis with green or purple skins", 3, 5, "down"],
+      ["CHERRY", "A red fruit with a single hard stone", 0, 10, "across"],
+      ["FIG", "Soft fruit with many tiny seeds and a thin skin", 0, 6, "across"],
+      ["PEACH", "Downy juicy fruit with sweet yellowish or whitish flesh", 4, 7, "across"],
+      ["LYCHEE", "Chinese fruit having a thin brittle shell enclosing a sweet jellylike pulp and a single seed", 8, 4, "down"],
+      ["APPLE", "Fruit with red or yellow or green skin and sweet to tart crisp whitish flesh", 4, 5, "across"],
+      ["LIME", "Small green citrus fruit", 9, 1, "down"],
+      ["GUAVA", "Tropical fruit with pale or pink flesh and many small seeds", 5, 0, "down"],
+      ["MANGO", "Oval tropical fruit with a flat stone and sweet orange flesh", 1, 1, "across"],
+      ["PAPAYA", "Large oval melon-like tropical fruit with yellowish flesh", 1, 3, "across"]
+    ]
+  },
+  {
+    "id": "vegetable-patch", "category": "theme", "title": "Vegetable Patch", "width": 11, "height": 11,
+    "words": [
+      ["LEEK", "Plant having a large slender white bulb and flat overlapping dark green leaves", 6, 9, "across"],
+      ["BEET", "Round red root vegetable", 9, 6, "down"],
+      ["KALE", "Leafy green vegetable with dark, often curly leaves", 7, 6, "down"],
+      ["PEA", "A leguminous plant of the genus Pisum with small white flowers and long green pods containing edible green seeds", 4, 8, "across"],
+      ["TURNIP", "Widely cultivated plant having a large fleshy edible white or yellow root", 5, 2, "down"],
+      ["RADISH", "Pungent fleshy edible root", 4, 5, "across"],
+      ["GARLIC", "Bulbous herb of southern Europe widely naturalized", 8, 0, "down"],
+      ["CHARD", "Beet lacking swollen root", 5, 2, "across"],
+      ["ONION", "An aromatic flavorful vegetable", 0, 6, "across"],
+      ["OKRA", "Long mucilaginous green pods", 1, 5, "down"],
+      ["PARSNIP", "A strong-scented plant cultivated for its edible root", 3, 0, "down"],
+      ["YAM", "Any of a number of tropical vines of the genus Dioscorea many having edible tuberous roots", 1, 2, "across"]
+    ]
+  },
+  {
+    "id": "herbs-and-spices", "category": "theme", "title": "Herbs and Spices", "width": 10, "height": 12,
+    "words": [
+      ["SAFFRON", "Spice made from the dried stigmas of a crocus flower", 2, 2, "across"],
+      ["MACE", "Spice made from the dried fleshy covering of the nutmeg seed", 4, 0, "down"],
+      ["ANISE", "Liquorice-flavored seeds, used medicinally and in cooking and liquors", 9, 0, "down"],
+      ["CLOVE", "Dried flower bud used as a strong, fragrant spice", 4, 5, "across"],
+      ["SAGE", "Herb with gray-green leaves often used to season stuffing", 0, 4, "across"],
+      ["SUMAC", "A shrub or tree of the genus Rhus (usually limited to the non-poisonous members of the genus)", 1, 3, "down"],
+      ["GINGER", "Perennial plants having thick branching aromatic rhizomes and leafy reedlike stems", 3, 3, "down"],
+      ["MINT", "Any north temperate plant of the genus Mentha with aromatic leaves and small mauve flowers", 0, 6, "across"],
+      ["VANILLA", "Flavoring extracted from the pods of a tropical orchid", 8, 4, "down"],
+      ["DILL", "Aromatic Old World herb having aromatic threadlike foliage and seeds used as seasoning", 4, 9, "across"],
+      ["CHIVE", "Perennial having hollow cylindrical leaves used for seasoning", 6, 6, "down"],
+      ["THYME", "Leaves can be used as seasoning for almost any meat and stews and stuffings and vegetables", 1, 11, "across"]
+    ]
+  },
+  {
+    "id": "at-the-cafe", "category": "theme", "title": "At the Café", "width": 9, "height": 11,
+    "words": [
+      ["SAUCER", "A small shallow dish for holding a cup at the table", 2, 8, "across"],
+      ["CUP", "A small open container usually used for drinking", 6, 7, "down"],
+      ["SYRUP", "A thick sweet sticky liquid", 1, 10, "across"],
+      ["BREW", "Drink made by steeping and boiling and fermenting rather than distilling", 8, 6, "down"],
+      ["TEA", "Drink made by steeping dried leaves in hot water", 4, 5, "down"],
+      ["STRAW", "A thin paper or plastic tube used to suck liquids into the mouth", 2, 6, "across"],
+      ["COCOA", "Powder of ground roasted cacao beans with most of the fat removed", 6, 1, "down"],
+      ["MOCHA", "A coffee drink flavored with chocolate", 3, 2, "across"],
+      ["MUG", "A large cup with a handle", 4, 1, "down"],
+      ["LATTE", "Strong espresso coffee with a topping of frothed steamed milk", 8, 0, "down"],
+      ["MENU", "A list of dishes available at a restaurant", 0, 3, "across"],
+      ["CREAM", "The rich, fatty part of milk", 2, 0, "down"]
+    ]
+  },
+  {
+    "id": "sweet-shop", "category": "theme", "title": "Sweet Shop", "width": 11, "height": 12,
+    "words": [
+      ["TAFFY", "Chewy candy of sugar or syrup boiled until thick and pulled until glossy", 0, 5, "across"],
+      ["JELLY", "A preserve made of the jelled juice of fruit", 5, 0, "down"],
+      ["FUDGE", "Soft creamy candy", 0, 2, "across"],
+      ["SUNDAE", "Ice cream served with a topping", 2, 0, "down"],
+      ["FONDANT", "Candy made of a thick creamy sugar paste", 4, 4, "down"],
+      ["CANDY", "A rich sweet made of flavored sugar and often combined with fruit or nuts", 0, 8, "across"],
+      ["ICING", "Sweet coating spread over a cake", 1, 6, "down"],
+      ["TRUFFLE", "Creamy chocolate candy", 3, 11, "across"],
+      ["BRITTLE", "Caramelized sugar cooled in thin sheets", 10, 4, "down"],
+      ["WAFER", "A thin, crisp biscuit", 5, 6, "across"],
+      ["DONUT", "A small ring-shaped friedcake", 5, 9, "across"],
+      ["NOUGAT", "Nuts or fruit pieces in a sugar paste", 7, 1, "down"]
+    ]
+  },
+  {
+    "id": "on-the-music-stand", "category": "theme", "title": "On the Music Stand", "width": 10, "height": 11,
+    "words": [
+      ["BAR", "A measure of music marked off by vertical lines", 5, 3, "down"],
+      ["BEAT", "The basic rhythmic unit in a piece of music", 4, 4, "across"],
+      ["REST", "A period of silence of a specified length in music", 4, 6, "across"],
+      ["SOLO", "A piece or passage performed by one musician", 7, 5, "down"],
+      ["NOTE", "A notation representing the pitch and duration of a musical sound", 5, 9, "across"],
+      ["KEY", "A pitch from which a musical scale is based", 9, 7, "down"],
+      ["CODA", "The closing section of a musical composition", 1, 5, "across"],
+      ["CHORD", "Three or more musical notes sounded together", 2, 4, "down"],
+      ["TRILL", "A note that alternates rapidly with another note a semitone above it", 0, 8, "across"],
+      ["CLEF", "Symbol at the start of a staff that indicates pitch", 4, 6, "down"],
+      ["TONE", "A musical sound with a particular pitch and quality", 6, 0, "down"],
+      ["PITCH", "How high or low a note sounds", 3, 1, "across"]
+    ]
+  },
+  {
+    "id": "the-orchestra", "category": "theme", "title": "The Orchestra", "width": 11, "height": 11,
+    "words": [
+      ["VIOLA", "A bowed stringed instrument slightly larger than a violin, tuned a fifth lower", 3, 8, "across"],
+      ["GONG", "Large metal disk that makes a resonant sound when struck", 6, 6, "down"],
+      ["BASS", "The lowest range of musical notes", 8, 6, "down"],
+      ["BOW", "A stick with stretched hair used to play a violin", 7, 7, "across"],
+      ["CELLO", "A large stringed instrument", 9, 2, "down"],
+      ["REED", "A thin strip that vibrates in a clarinet or oboe", 6, 4, "across"],
+      ["HARP", "Stringed instrument with a tall frame and plucked strings", 7, 1, "down"],
+      ["TUBA", "The lowest brass wind instrument", 3, 3, "across"],
+      ["BATON", "A thin tapered rod used by a conductor to lead an orchestra or choir", 4, 0, "down"],
+      ["OBOE", "A slender double-reed instrument", 2, 1, "across"],
+      ["HORN", "Brass instrument with a coiled tube and flared bell", 0, 5, "across"],
+      ["TROMBONE", "A brass instrument consisting of a long tube whose length can be varied by a U-shaped slide", 2, 2, "down"]
+    ]
+  },
+  {
+    "id": "the-dance-floor", "category": "theme", "title": "The Dance Floor", "width": 10, "height": 11,
+    "words": [
+      ["SALSA", "A dance style with Afro-Cuban roots", 1, 2, "across"],
+      ["TAP", "Dance style in which shoes make rhythmic clicking sounds", 6, 0, "down"],
+      ["JAZZ", "A style of dance music popular in the 1920s", 3, 0, "down"],
+      ["PLIE", "A bend of the knees in ballet", 5, 3, "across"],
+      ["JIVE", "Fast partner dance with kicks and lively swing steps", 8, 1, "down"],
+      ["BALLET", "A theatrical representation of a story that is performed to music by trained dancers", 3, 5, "across"],
+      ["TANGO", "A ballroom dance of Latin-American origin", 5, 3, "down"],
+      ["LIMBO", "Dance in which participants lean backward to pass under a low bar", 7, 4, "down"],
+      ["TWIST", "A dance that involves swiveling the hips and feet", 9, 4, "down"],
+      ["MAMBO", "A Latin American dance similar in rhythm to the rumba", 0, 8, "across"],
+      ["SAMBA", "A lively ballroom dance from Brazil", 3, 5, "down"],
+      ["RUMBA", "A ballroom dance based on the Cuban folk dance", 1, 5, "down"]
+    ]
+  },
+  {
+    "id": "at-the-cinema", "category": "theme", "title": "At the Cinema", "width": 10, "height": 11,
+    "words": [
+      ["SEQUEL", "A film or book that continues an earlier story", 1, 2, "across"],
+      ["CUT", "A transition from one shot directly to the next", 5, 0, "down"],
+      ["LENS", "The curved glass that focuses light in a camera", 3, 0, "down"],
+      ["PLOT", "The sequence of events in a story", 7, 0, "down"],
+      ["CAST", "The actors appearing in a film or play", 0, 4, "across"],
+      ["ACTOR", "A performer who plays a role in a movie or play", 1, 2, "down"],
+      ["REEL", "A spool for holding a length of film", 0, 7, "across"],
+      ["GENRE", "A kind of literary or artistic work", 3, 5, "down"],
+      ["FRAME", "One still image in a sequence that makes a film", 1, 9, "across"],
+      ["SCREEN", "The surface onto which a movie is projected", 6, 4, "down"],
+      ["SCENE", "A section of a play or film that takes place in one setting", 4, 6, "across"],
+      ["TRAILER", "An advertisement consisting of short scenes from a motion picture that will appear in the near future", 9, 0, "down"]
+    ]
+  },
+  {
+    "id": "between-the-pages", "category": "theme", "title": "Between the Pages", "width": 10, "height": 12,
+    "words": [
+      ["PROSE", "Ordinary writing as distinguished from verse", 4, 8, "across"],
+      ["COMIC", "A publication that tells stories through sequences of drawings", 7, 6, "down"],
+      ["VERSE", "Literature in metrical form", 9, 6, "down"],
+      ["SPINE", "The bound edge of a book", 5, 6, "down"],
+      ["TITLE", "The name of a book, film or other work", 0, 11, "across"],
+      ["ATLAS", "A book of maps", 0, 7, "across"],
+      ["FOLIO", "A large book made from printed sheets folded once", 3, 4, "down"],
+      ["FABLE", "A story about mythical or supernatural beings or events", 2, 5, "across"],
+      ["PREFACE", "A short introductory essay preceding the text of a book", 1, 2, "down"],
+      ["POEM", "A composition written in metrical feet forming rhythmical lines", 0, 3, "across"],
+      ["NOVEL", "An extended fictional work in prose", 6, 0, "down"],
+      ["STANZA", "A fixed number of lines of verse forming a unit of a poem", 2, 1, "across"]
+    ]
+  },
+  {
+    "id": "the-painters-studio", "category": "theme", "title": "The Painter’s Studio", "width": 11, "height": 11,
+    "words": [
+      ["OCHRE", "Any of various earths containing silica and alumina and ferric oxide", 5, 10, "across"],
+      ["HUE", "The basic color of something, such as red or blue", 10, 7, "down"],
+      ["BRUSH", "Tool with bristles for applying paint", 5, 8, "across"],
+      ["CANVAS", "Heavy fabric stretched over a frame as a surface for painting", 9, 2, "down"],
+      ["INK", "Colored liquid used in drawing or writing", 7, 5, "across"],
+      ["FRESCO", "A mural done with watercolors on wet plaster", 4, 3, "across"],
+      ["STROKE", "A single sweep of a paintbrush", 6, 0, "down"],
+      ["SHADE", "A darker version of a color", 5, 1, "across"],
+      ["EASEL", "An upright tripod for displaying something (usually an artist's canvas)", 2, 6, "across"],
+      ["PASTEL", "Any of various pale or light colors", 4, 4, "down"],
+      ["TINT", "A lighter version of a color", 0, 8, "across"],
+      ["PAINT", "Colored material applied with a brush", 1, 3, "down"]
+    ]
+  },
+  {
+    "id": "behind-the-camera", "category": "theme", "title": "Behind the Camera", "width": 10, "height": 13,
+    "words": [
+      ["FRAME", "One still image in a sequence that makes a film", 5, 0, "down"],
+      ["LENS", "The curved glass that focuses light in a camera", 3, 5, "across"],
+      ["FLASH", "A brief burst of light for taking a photograph", 2, 3, "across"],
+      ["FOCUS", "Adjust a lens so that the subject looks sharp", 4, 1, "across"],
+      ["SHUTTER", "The part of a camera that opens to expose the sensor or film to light", 9, 0, "down"],
+      ["FILTER", "Attachment for a camera lens that alters the light entering it", 3, 7, "across"],
+      ["FILM", "Light-sensitive strip used to record photographs before digital cameras", 4, 6, "down"],
+      ["TRIPOD", "A three-legged rack used for support", 7, 6, "down"],
+      ["PHOTO", "A representation of a person or scene in the form of a print or transparent slide", 4, 11, "across"],
+      ["ZOOM", "Change the apparent size of a subject by adjusting a lens", 9, 8, "down"],
+      ["ANGLE", "The position from which a camera views a subject", 0, 9, "across"],
+      ["PORTRAIT", "Photograph or painting of a person", 1, 3, "down"]
+    ]
+  },
+  {
+    "id": "on-the-stage", "category": "theme", "title": "On the Stage", "width": 9, "height": 12,
+    "words": [
+      ["SCRIPT", "A written version of a play or other dramatic composition", 0, 8, "across"],
+      ["CUE", "A signal for a performer to speak, enter or act", 2, 7, "down"],
+      ["ENCORE", "An extra or repeated performance", 1, 10, "across"],
+      ["PROP", "An object handled or used by actors on stage", 5, 7, "down"],
+      ["SET", "The scenery and furniture arranged for a stage production", 7, 8, "down"],
+      ["CAST", "The actors appearing in a film or play", 6, 4, "down"],
+      ["STAGE", "Raised platform where actors perform", 3, 6, "across"],
+      ["SCENE", "A section of a play or film that takes place in one setting", 8, 3, "down"],
+      ["CHORUS", "A company of actors who comment (by speaking or singing in unison) on the action in a classical Greek play", 1, 2, "down"],
+      ["COSTUME", "The attire worn in a play or at a fancy dress ball", 0, 3, "across"],
+      ["AISLE", "Passage between rows of seats", 3, 0, "down"],
+      ["ACTOR", "A performer who plays a role in a movie or play", 2, 1, "across"]
+    ]
+  },
+  {
+    "id": "needle-and-thread", "category": "theme", "title": "Needle and Thread", "width": 11, "height": 11,
+    "words": [
+      ["PATCH", "Piece of fabric sewn over a hole or worn spot", 5, 5, "across"],
+      ["DART", "A tapered fold stitched into clothing to make it fit", 8, 1, "down"],
+      ["NOTCH", "A small cut used to line up pieces of a sewing pattern", 10, 0, "down"],
+      ["CUFF", "A band around the end of a sleeve", 9, 4, "down"],
+      ["SPOOL", "A winder around which thread or tape or film or other flexible materials can be wound", 6, 3, "down"],
+      ["THREAD", "A fine cord of twisted fibers (of cotton or silk or wool or nylon etc.) used in sewing and weaving", 2, 2, "across"],
+      ["STITCH", "A link or loop or knot made by an implement in knitting, crocheting, embroidery, or sewing", 3, 0, "down"],
+      ["NEEDLE", "Slender pointed sewing tool with a hole for thread", 1, 8, "across"],
+      ["TACK", "A loose temporary stitch", 0, 5, "across"],
+      ["BUTTON", "A round fastener sewn to shirts and coats etc to fit through buttonholes", 1, 1, "down"],
+      ["SEAM", "Joint consisting of a line formed by joining two pieces", 4, 6, "down"],
+      ["THIMBLE", "A small metal cap to protect the finger while sewing", 0, 10, "across"]
+    ]
+  },
+  {
+    "id": "in-the-wardrobe", "category": "theme", "title": "In the Wardrobe", "width": 10, "height": 11,
+    "words": [
+      ["SCARF", "A garment worn around the head or neck or shoulders for warmth or decoration", 0, 1, "across"],
+      ["COAT", "An outer garment that has sleeves and covers the body from shoulder down", 2, 0, "down"],
+      ["TIE", "A strip of fabric knotted at the neck of a shirt", 1, 4, "across"],
+      ["ROBE", "Any loose flowing garment", 4, 0, "down"],
+      ["BELT", "A band to tie or buckle around the body (usually at the waist)", 3, 3, "across"],
+      ["TUNIC", "Any of a variety of loose fitting cloaks extending to the hips or knees", 7, 2, "down"],
+      ["SHIRT", "A garment worn on the upper half of the body", 4, 6, "across"],
+      ["VEST", "A man's sleeveless garment worn underneath a coat", 9, 2, "down"],
+      ["SHAWL", "Cloak consisting of an oblong piece of cloth used to cover the head and shoulders", 5, 5, "down"],
+      ["COLLAR", "A band that fits around the neck and is usually folded over", 0, 8, "across"],
+      ["HOOD", "A covering for the head attached to a coat", 2, 5, "down"],
+      ["BLOUSE", "A top worn by women", 3, 10, "across"]
+    ]
+  },
+  {
+    "id": "hats-and-shoes", "category": "theme", "title": "Hats and Shoes", "width": 11, "height": 12,
+    "words": [
+      ["PUMP", "A low-cut shoe without laces or straps", 2, 0, "down"],
+      ["MULE", "A shoe open at the back", 1, 3, "across"],
+      ["HEEL", "The raised back part of a shoe’s sole", 5, 0, "down"],
+      ["LOAFER", "A slip-on shoe without laces", 4, 4, "across"],
+      ["SOLE", "The underside of a shoe", 9, 0, "down"],
+      ["BOOT", "Footwear that covers the whole foot and lower leg", 6, 2, "across"],
+      ["BEANIE", "A small skullcap", 7, 1, "down"],
+      ["BERET", "A round, flat hat without a brim", 3, 7, "across"],
+      ["FEDORA", "A hat made of felt with a creased crown", 5, 5, "down"],
+      ["CLOG", "A shoe traditionally made with a wooden sole", 2, 9, "across"],
+      ["TURBAN", "A head covering made by winding cloth around the head", 0, 11, "across"],
+      ["BONNET", "A hat tied under the chin", 1, 5, "down"]
+    ]
+  },
+  {
+    "id": "gems-and-jewelry", "category": "theme", "title": "Gems and Jewelry", "width": 10, "height": 11,
+    "words": [
+      ["RUBY", "A deep red gemstone", 0, 8, "across"],
+      ["ONYX", "A chalcedony with alternating black and white bands", 4, 5, "down"],
+      ["CARAT", "A unit of weight for precious stones", 1, 5, "down"],
+      ["TOPAZ", "A yellow quartz", 2, 6, "across"],
+      ["AGATE", "An impure form of quartz consisting of banded chalcedony", 6, 5, "down"],
+      ["BEZEL", "The rim that holds a stone in place in a piece of jewelry", 4, 10, "across"],
+      ["JADE", "A semiprecious gemstone that takes a high polish", 8, 6, "down"],
+      ["CLASP", "Fastener that holds the ends of a necklace together", 5, 1, "down"],
+      ["CAMEO", "A piece of jewelry with a raised figure carved in contrasting color", 4, 2, "across"],
+      ["PENDANT", "An adornment that hangs from a piece of jewelry (necklace or earring)", 0, 4, "across"],
+      ["GARNET", "Any of a group of hard glassy minerals (silicates of various metals) used as gemstones and as an abrasive", 3, 0, "down"],
+      ["OPAL", "A translucent mineral consisting of hydrated silica of variable color", 9, 1, "down"]
+    ]
+  },
+  {
+    "id": "the-weather-report", "category": "theme", "title": "The Weather Report", "width": 11, "height": 11,
+    "words": [
+      ["SLEET", "A mixture of rain and snow or small ice pellets", 0, 4, "across"],
+      ["DEW", "Droplets that form on grass overnight", 3, 2, "down"],
+      ["MIST", "Fine droplets that hang in the air near the ground", 1, 1, "down"],
+      ["GUST", "A strong current of air", 5, 0, "down"],
+      ["FOG", "Droplets of water vapor suspended in the air near the ground", 2, 1, "across"],
+      ["SNOW", "Precipitation falling from clouds in the form of ice crystals", 4, 3, "across"],
+      ["FROST", "Weather cold enough to cause freezing", 7, 0, "down"],
+      ["STORM", "Severe weather with strong wind and often rain or snow", 5, 5, "across"],
+      ["HUMID", "Containing or characterized by a great deal of water vapor", 10, 2, "down"],
+      ["SQUALL", "Sudden violent winds", 6, 4, "down"],
+      ["RAIN", "Water falling in drops from vapor condensed in the atmosphere", 4, 8, "across"],
+      ["DRIZZLE", "Very light rain", 0, 10, "across"]
+    ]
+  },
+  {
+    "id": "in-the-mountains", "category": "theme", "title": "In the Mountains", "width": 11, "height": 11,
+    "words": [
+      ["PEAK", "The highest point of a mountain", 1, 1, "across"],
+      ["PASS", "A route through a gap between mountains", 2, 0, "down"],
+      ["SLOPE", "Land that rises or falls at an angle", 1, 4, "across"],
+      ["CREST", "The highest part of a ridge or hill", 6, 1, "down"],
+      ["GORGE", "A narrow pass (especially one between mountains)", 4, 2, "down"],
+      ["CRAG", "A steep rugged rock or cliff", 0, 6, "across"],
+      ["SCREE", "Loose stones on a mountain slope", 1, 4, "down"],
+      ["RIDGE", "A long narrow crest running along high ground", 5, 3, "across"],
+      ["TRAIL", "A path through countryside or mountainous terrain", 5, 6, "across"],
+      ["BLUFF", "A high steep bank or cliff", 10, 4, "down"],
+      ["RAVINE", "A deep narrow steep-sided valley (especially one formed by running water)", 8, 4, "down"],
+      ["GLACIER", "A slowly moving mass of ice", 2, 10, "across"]
+    ]
+  },
+  {
+    "id": "by-the-river", "category": "theme", "title": "By the River", "width": 10, "height": 12,
+    "words": [
+      ["CREEK", "A natural stream of water smaller than a river (and often a tributary of a river)", 9, 0, "down"],
+      ["BANK", "The land beside a river", 5, 5, "across"],
+      ["DELTA", "Land formed by sediment at a river mouth", 7, 0, "down"],
+      ["WEIR", "A low barrier built across a river to control water level", 5, 2, "across"],
+      ["BEND", "A curve in a river or road", 6, 4, "down"],
+      ["FORD", "A shallow place where you can cross a river", 2, 8, "across"],
+      ["LEVEE", "A raised bank built to keep a river from flooding", 1, 6, "across"],
+      ["SLUICE", "A gated channel used to control the flow of water", 3, 0, "down"],
+      ["BASIN", "The entire geographical area drained by a river and its tributaries", 0, 1, "across"],
+      ["BROOK", "A natural stream of water smaller than a river (and often a tributary of a river)", 1, 0, "down"],
+      ["RAFT", "A flat floating platform used to cross water", 5, 7, "down"],
+      ["STREAM", "A natural body of running water flowing on or under the earth", 3, 11, "across"]
+    ]
+  },
+  {
+    "id": "at-the-beach", "category": "theme", "title": "At the Beach", "width": 10, "height": 11,
+    "words": [
+      ["DUNE", "A ridge of sand created by the wind", 9, 2, "down"],
+      ["SAND", "A loose material consisting of grains of rock or coral", 5, 3, "across"],
+      ["TIDE", "The periodic rise and fall of the sea level under the gravitational pull of the moon", 5, 6, "across"],
+      ["FOAM", "A mass of tiny bubbles on the surface of water", 7, 0, "down"],
+      ["SURF", "Waves breaking near the shore", 3, 1, "across"],
+      ["SPRAY", "Water thrown into the air in fine drops", 4, 0, "down"],
+      ["PIER", "A walkway built out over the water from the shore", 0, 3, "across"],
+      ["BUOY", "A floating marker anchored to the bottom", 0, 5, "across"],
+      ["BEACH", "An area of sand sloping down to the water of a sea or lake", 1, 4, "down"],
+      ["COVE", "A small sheltered bay", 0, 8, "across"],
+      ["INLET", "A narrow arm of the sea extending into the land", 7, 5, "down"],
+      ["JETTY", "A protective structure of stone or concrete", 3, 10, "across"]
+    ]
+  },
+  {
+    "id": "among-the-trees", "category": "theme", "title": "Among the Trees", "width": 10, "height": 11,
+    "words": [
+      ["SPRUCE", "Any coniferous tree of the genus Picea", 7, 4, "down"],
+      ["ASH", "A tree with winged seeds and leaves made of paired leaflets", 5, 5, "across"],
+      ["YEW", "Evergreen tree with red berry-like fruit and dark needles", 5, 10, "across"],
+      ["FIR", "An evergreen tree with upright cones and flat needles", 4, 7, "across"],
+      ["LARCH", "Any of numerous conifers of the genus Larix all having deciduous needlelike leaves", 8, 0, "down"],
+      ["ALDER", "North temperate shrubs or trees having toothed leaves and conelike fruit", 3, 3, "across"],
+      ["MAPLE", "Any of numerous trees or shrubs of the genus Acer bearing winged seeds in pairs", 4, 1, "down"],
+      ["ELM", "Any of various trees of the genus Ulmus: important timber or shade trees", 6, 1, "across"],
+      ["PINE", "An evergreen tree with needles and woody cones", 0, 6, "across"],
+      ["POPLAR", "Any of numerous trees of north temperate regions having light soft wood and flowers borne in catkins", 1, 3, "down"],
+      ["ROWAN", "Eurasian tree with orange-red berrylike fruits", 0, 9, "across"],
+      ["OAK", "A deciduous tree of the genus Quercus", 4, 7, "down"]
+    ]
+  },
+  {
+    "id": "forest-floor", "category": "theme", "title": "Forest Floor", "width": 10, "height": 11,
+    "words": [
+      ["LITTER", "Dead leaves and twigs scattered on a forest floor", 6, 2, "down"],
+      ["LOG", "A segment of the trunk of a tree when stripped of branches", 5, 3, "across"],
+      ["ROOT", "The part of a plant that usually grows under the soil", 5, 8, "across"],
+      ["TWIG", "A small branch or division of a branch (especially a terminal division)", 5, 5, "across"],
+      ["LOAM", "A rich soil consisting of a mixture of sand and clay and decaying organic materials", 8, 6, "down"],
+      ["STUMP", "The base part of a tree that remains standing after the tree has been felled", 4, 10, "across"],
+      ["CONE", "A woody seed structure found on trees such as pines", 2, 7, "across"],
+      ["ACORN", "Fruit of the oak tree: a smooth thin-walled nut in a woody cup-shaped base", 3, 5, "down"],
+      ["FUNGI", "The taxonomic kingdom including yeast, molds, smuts, mushrooms, and toadstools", 1, 4, "across"],
+      ["BARK", "The outer covering of a tree trunk", 0, 9, "across"],
+      ["LEAF", "The main organ of photosynthesis and transpiration in higher plants", 2, 0, "down"],
+      ["LICHEN", "Any thallophytic plant of the division Lichenes", 1, 1, "across"]
+    ]
+  },
+  {
+    "id": "garden-flowers", "category": "theme", "title": "Garden Flowers", "width": 11, "height": 12,
+    "words": [
+      ["POPPY", "Paper-petaled flower associated with remembrance", 5, 11, "across"],
+      ["TULIP", "Cup-shaped spring flower that grows from a bulb", 6, 6, "down"],
+      ["PEONY", "Garden plant with large, layered pink or white flowers", 10, 6, "down"],
+      ["PHLOX", "Garden plant with clusters of small five-petaled flowers", 3, 9, "across"],
+      ["LUPIN", "Garden plant that sends up tall spikes of pea-like flowers", 4, 6, "down"],
+      ["VIOLET", "Small purple flower with five petals", 0, 7, "across"],
+      ["IRIS", "Garden flower with three upright petals and three drooping ones", 2, 6, "down"],
+      ["ROSE", "Fragrant flower on a bush with thorny stems", 5, 3, "down"],
+      ["ASTER", "Daisy-like flower that often blooms in autumn", 0, 4, "across"],
+      ["ORCHID", "Flower with a distinctive lip-shaped petal, often grown indoors", 4, 5, "across"],
+      ["ZINNIA", "Bright summer flower from a genus named after botanist Johann Zinn", 9, 0, "down"],
+      ["PANSY", "Garden flower whose petals often have face-like markings", 2, 0, "down"]
+    ]
+  },
+  {
+    "id": "in-the-meadow", "category": "theme", "title": "In the Meadow", "width": 9, "height": 12,
+    "words": [
+      ["GNAT", "Any of various small biting flies: midges", 1, 0, "down"],
+      ["ANT", "A social insect that often lives in a colony underground", 0, 3, "across"],
+      ["MOTH", "Typically crepuscular or nocturnal insect having a stout body and feathery or hairlike antennae", 3, 0, "down"],
+      ["MIDGE", "Minute two-winged mosquito-like fly lacking biting mouthparts", 2, 1, "across"],
+      ["GRUB", "A soft, thick larva, especially of a beetle", 6, 0, "down"],
+      ["BEE", "A pollinating insect, some kinds of which make honey", 5, 4, "across"],
+      ["BEETLE", "Insect having biting mouthparts and front wings modified to form horny covers overlying the membranous rear wings", 8, 1, "down"],
+      ["WEEVIL", "Any of several families of mostly small beetles that feed on plants and plant products", 2, 6, "across"],
+      ["WASP", "A stinging insect often marked with black and yellow", 3, 5, "down"],
+      ["APHID", "Any of various small plant-sucking insects", 1, 9, "across"],
+      ["TICK", "A small arachnid that attaches to an animal to feed", 5, 7, "down"],
+      ["CRICKET", "A chirping insect with long hind legs adapted for jumping", 0, 11, "across"]
+    ]
+  },
+  {
+    "id": "at-the-zoo", "category": "theme", "title": "At the Zoo", "width": 11, "height": 11,
+    "words": [
+      ["SLOTH", "A slow-moving mammal that spends much of its life hanging from trees", 4, 1, "across"],
+      ["LION", "A large wild cat whose males usually have a mane", 6, 0, "down"],
+      ["HYENA", "Doglike nocturnal mammal of Africa and southern Asia that feeds chiefly on carrion", 9, 0, "down"],
+      ["OTTER", "Freshwater carnivorous mammal having webbed and clawed feet and dark brown fur", 5, 3, "across"],
+      ["YAK", "Large long-haired wild ox of Tibet often domesticated", 7, 5, "across"],
+      ["BISON", "Any of several large humped bovids having shaggy manes and large heads and short horns", 1, 4, "across"],
+      ["ZEBRA", "Any of several fleet black-and-white striped African equines", 2, 1, "down"],
+      ["PANDA", "Large black-and-white herbivorous mammal of bamboo forests of China and Tibet", 0, 6, "across"],
+      ["KOALA", "Sluggish tailless Australian arboreal marsupial with grey furry ears and coat", 10, 4, "down"],
+      ["LLAMA", "Wild or domesticated South American cud-chewing animal related to camels but smaller and lacking a hump", 5, 7, "across"],
+      ["DINGO", "Wolflike yellowish-brown wild dog of Australia", 4, 5, "down"],
+      ["TIGER", "Large wild cat with black stripes on an orange coat", 1, 9, "across"]
+    ]
+  },
+  {
+    "id": "on-safari", "category": "theme", "title": "On Safari", "width": 11, "height": 11,
+    "words": [
+      ["HERD", "A group of wild mammals of one species that remain together: antelope or elephants or seals or whales or zebra", 5, 9, "across"],
+      ["KUDU", "Either of two spiral-horned antelopes of the African bush", 9, 6, "down"],
+      ["TUSK", "A long pointed tooth specialized for fighting or digging", 5, 7, "across"],
+      ["CHEETAH", "Long-legged spotted cat of Africa and southwestern Asia having nonretractile claws", 6, 2, "down"],
+      ["ELAND", "Either of two large African antelopes of the genus Taurotragus having short spirally twisted horns in both sexes", 5, 5, "across"],
+      ["PRIDE", "A group of lions", 10, 1, "down"],
+      ["HYENA", "Doglike nocturnal mammal of Africa and southern Asia that feeds chiefly on carrion", 8, 0, "down"],
+      ["OSTRICH", "Fast-running African flightless bird with two-toed feet", 1, 1, "across"],
+      ["IMPALA", "African antelope with ridged curved horns", 0, 8, "across"],
+      ["LION", "A large wild cat whose males usually have a mane", 1, 6, "down"],
+      ["BUFFALO", "Large horned bovine often seen in herds in Africa", 4, 3, "down"],
+      ["GNU", "An African antelope also called a wildebeest", 1, 5, "across"]
+    ]
+  },
+  {
+    "id": "at-the-airport", "category": "theme", "title": "At the Airport", "width": 10, "height": 11,
+    "words": [
+      ["TAXI", "Move an aircraft slowly along the ground", 5, 4, "across"],
+      ["JET", "An aircraft powered by engines that expel a fast stream of gas", 6, 1, "down"],
+      ["GATE", "The point where passengers board a plane", 2, 3, "across"],
+      ["SEAT", "A chair assigned to a passenger on an aircraft", 4, 0, "down"],
+      ["FLIGHT", "A journey by air", 9, 1, "down"],
+      ["PILOT", "The person who flies an aircraft", 4, 7, "across"],
+      ["AISLE", "Passage between rows of seats", 7, 3, "down"],
+      ["APRON", "A paved area where aircraft park, load or refuel", 5, 5, "down"],
+      ["HANGAR", "A large structure at an airport where aircraft can be stored and maintained", 2, 10, "across"],
+      ["TOWER", "The structure from which air traffic controllers direct airport movements", 0, 8, "across"],
+      ["TICKET", "Proof that a passenger has paid for a journey", 1, 2, "down"],
+      ["CREW", "The people who operate an aircraft and look after its passengers", 3, 4, "down"]
+    ]
+  },
+  {
+    "id": "on-the-road", "category": "theme", "title": "On the Road", "width": 10, "height": 11,
+    "words": [
+      ["CURB", "Raised edge between a roadway and a sidewalk", 3, 3, "across"],
+      ["CONE", "A bright cone-shaped marker that warns or guides drivers", 4, 2, "down"],
+      ["RAMP", "A sloping roadway that joins roads at different levels", 6, 2, "down"],
+      ["MILE", "A unit of length equal to 1,760 yards or 5,280 feet", 5, 5, "across"],
+      ["ROUTE", "An established line of travel or access", 9, 0, "down"],
+      ["DETOUR", "A roundabout road (especially one that is used temporarily while a main route is blocked)", 3, 1, "across"],
+      ["LANE", "A narrow way or road", 8, 4, "down"],
+      ["VERGE", "Strip of grass or ground at the side of a road", 3, 8, "across"],
+      ["BEND", "A curve in a river or road", 5, 6, "down"],
+      ["MEDIAN", "The strip separating traffic moving in opposite directions", 2, 10, "across"],
+      ["SIGN", "A board displaying directions or a warning to drivers", 0, 5, "across"],
+      ["EXIT", "A place where drivers can leave a highway", 2, 2, "down"]
+    ]
+  },
+  {
+    "id": "at-the-workshop", "category": "theme", "title": "At the Workshop", "width": 10, "height": 11,
+    "words": [
+      ["BEVEL", "Two surfaces meeting at an angle different from 90 degrees", 1, 10, "across"],
+      ["VISE", "A tool with jaws that clamps a workpiece in place", 3, 6, "down"],
+      ["PLANE", "A woodworking tool that shaves thin layers from a surface", 5, 5, "down"],
+      ["LEVEL", "A tool with a bubble used to check whether a surface is horizontal", 0, 7, "across"],
+      ["DRILL", "Tool that rotates a bit to make holes", 1, 3, "down"],
+      ["RASP", "Coarse file used to shape wood", 0, 5, "across"],
+      ["AUGER", "A tool with a spiral blade for boring holes", 4, 8, "across"],
+      ["LATHE", "Machine tool for shaping metal or wood", 8, 3, "down"],
+      ["SAW", "Hand tool having a toothed blade for cutting", 6, 5, "across"],
+      ["CLAMP", "A device (generally used by carpenters) that holds things firmly together", 4, 0, "down"],
+      ["CHISEL", "An edge tool with a flat steel blade with a cutting edge", 3, 1, "across"],
+      ["GAUGE", "Instrument used to check thickness, pressure or another measurement", 2, 3, "across"]
+    ]
+  },
+  {
+    "id": "building-a-house", "category": "theme", "title": "Building a House", "width": 11, "height": 11,
+    "words": [
+      ["WALL", "An architectural partition with a height and length greater than its thickness", 0, 4, "across"],
+      ["EAVE", "The lower edge of a roof that overhangs the wall", 2, 2, "down"],
+      ["BEAM", "A long, sturdy piece of wood or steel that carries a load", 0, 6, "across"],
+      ["SILL", "The horizontal ledge at the bottom of a window", 4, 0, "down"],
+      ["SASH", "The movable frame that holds the glass in a window", 1, 1, "across"],
+      ["BRICK", "Rectangular block of clay baked by the sun or in a kiln", 1, 5, "down"],
+      ["CEMENT", "A building material that is a powder made of a mixture of calcined limestone and clay", 0, 9, "across"],
+      ["GROUT", "A thin mortar that can be poured and used to fill cracks in masonry or brickwork", 6, 4, "down"],
+      ["JOIST", "A horizontal timber that supports a floor or ceiling", 4, 7, "across"],
+      ["TILE", "A thin flat slab of fired clay used for roofing", 9, 6, "down"],
+      ["PIER", "A solid upright support for part of a building or bridge", 6, 10, "across"],
+      ["GABLE", "Triangular upper portion of a wall beneath the ends of a pitched roof", 5, 5, "across"]
+    ]
+  },
+  {
+    "id": "parts-of-a-boat", "category": "theme", "title": "Parts of a Boat", "width": 9, "height": 11,
+    "words": [
+      ["KEEL", "One of the main longitudinal beams (or plates) of the hull of a vessel", 0, 9, "across"],
+      ["HULL", "The main body of a boat", 4, 5, "down"],
+      ["DECK", "A platform that forms a floor on a boat", 1, 5, "down"],
+      ["HATCH", "An opening in a vessel’s deck, usually closed by a cover", 3, 6, "across"],
+      ["CABIN", "Small room on a ship or boat where people sleep", 7, 5, "down"],
+      ["JIB", "Any triangular fore-and-aft sail (set forward of the foremast)", 5, 9, "across"],
+      ["CLEAT", "A fitting around which a rope can be secured", 6, 1, "down"],
+      ["BILGE", "Where the sides of the vessel curve in to form the bottom", 1, 4, "across"],
+      ["RAIL", "A protective bar along the edge of a boat’s deck", 3, 1, "down"],
+      ["OAR", "An implement used to propel or steer a boat", 0, 2, "across"],
+      ["WINCH", "Lifting device consisting of a horizontal cylinder turned by a crank on which a cable or rope winds", 8, 1, "down"],
+      ["BOW", "The front end of a boat", 1, 0, "down"]
     ]
   }
 ];
