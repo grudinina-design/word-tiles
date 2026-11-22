@@ -10,11 +10,9 @@ let gridColumns, gridRows;
 let gridZoom = 1, pinch, suppressTapUntil = 0;
 
 function read() {
-  try {
-    return JSON.parse(localStorage.getItem(storageKey)) || memory || {balance:0, streak:0, games:{}};
-  } catch {
-    return memory || {balance:0, streak:0, games:{}};
-  }
+  let saved;
+  try { saved = JSON.parse(localStorage.getItem(storageKey)); } catch {}
+  return migrateGrids(saved || memory || {balance:0, streak:0, games:{}});
 }
 
 function edit(change) {
@@ -76,6 +74,31 @@ function makeModel(definition) {
 }
 
 const models = puzzles.map(makeModel);
+function migrateGrids(saved) {
+  if (saved.compactGrids) return saved;
+  for (const model of models) {
+    const game = saved.games[model.id];
+    if (!game) continue;
+    const previous = game.letters || {};
+    const letters = {};
+    for (const [position, cell] of model.cells) {
+      const candidates = model.legacyCells[position].map(index => previous[index]).filter(Boolean);
+      if (game.solved || candidates.includes(cell.answer)) {
+        letters[position] = cell.answer;
+      } else if (candidates.length && candidates.every(letter => letter === candidates[0])) {
+        letters[position] = candidates[0];
+      }
+    }
+    game.letters = letters;
+    if (!game.solved && [...model.cells].every(([position, cell]) => letters[position] === cell.answer)) {
+      game.solved = true;
+      saved.balance += 3;
+    }
+  }
+  saved.compactGrids = true;
+  return saved;
+}
+
 const byCategory = Object.fromEntries(Object.keys(categories).map(group =>
   [group, models.filter(model => model.category === group)]
 ));
