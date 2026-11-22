@@ -81,14 +81,15 @@ function makeModel(definition) {
 
 const models = puzzles.map(makeModel);
 function migrateGrids(saved) {
-  if (saved.compactGrids) return saved;
+  if (saved.compactGrids === 2) return saved;
   for (const model of models) {
     const game = saved.games[model.id];
     if (!game) continue;
     const previous = game.letters || {};
+    const mapping = saved.compactGrids ? model.compactCells : model.legacyCells;
     const letters = {};
     for (const [position, cell] of model.cells) {
-      const candidates = model.legacyCells[position].map(index => previous[index]).filter(Boolean);
+      const candidates = mapping[position].map(index => previous[index]).filter(Boolean);
       if (game.solved || candidates.includes(cell.answer)) {
         letters[position] = cell.answer;
       } else if (candidates.length && candidates.every(letter => letter === candidates[0])) {
@@ -101,7 +102,7 @@ function migrateGrids(saved) {
       saved.balance += 3;
     }
   }
-  saved.compactGrids = true;
+  saved.compactGrids = 2;
   return saved;
 }
 
