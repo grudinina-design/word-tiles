@@ -30,10 +30,6 @@
 <div class="current">
 <button class="clue-nav" id="previous-clue" type="button" aria-label="Previous clue">‹</button>
 <div class="clue-body">
-<div class="clue-heading">
-<span class="direction" id="direction"></span>
-<button class="switch" id="switch-word" type="button" hidden></button>
-</div>
 <div class="clue-copy" id="clue-copy" aria-live="polite" aria-atomic="true"><strong id="current"></strong></div>
 </div>
 <button class="clue-nav" id="next-clue" type="button" aria-label="Next clue">›</button>
@@ -42,7 +38,7 @@
 </div>
 </section>
 </main>
-<dialog id="guide"><h2>How to play</h2><p>The selected word’s clue appears above the keyboard. Use the buttons beside it to browse clues. At a crossing, tap the same cell again or use the direction button. Correct words turn green and lock automatically. The full grid fits when you open a puzzle. Pinch the grid to zoom and drag with one finger to move around.</p><p>Easy, Normal, and Hard start with five unlocked puzzles each. Every puzzle you solve in one of those categories unlocks the next one in that category.</p><p>Earn 3 hints the first time you solve a puzzle. Daily streak rewards are 3 hints on days 1–2, 5 on days 3–4, and 7 from day 5 onward. Missing a day restarts the streak. Revealing a letter costs 1 hint.</p><p class="credits">Some clues adapted from <a href="wordnet-license.txt">Princeton WordNet</a>.</p><form method="dialog"><button class="outline" autofocus>Got it</button></form></dialog>
+<dialog id="guide"><h2>How to play</h2><p>The selected word’s clue appears above the keyboard. Use the buttons beside it to browse clues. At a crossing, tap the same cell again to switch words. Correct words turn green and lock automatically. The full grid fits when you open a puzzle. Pinch the grid to zoom and drag with one finger to move around.</p><p>Easy, Normal, and Hard start with five unlocked puzzles each. Every puzzle you solve in one of those categories unlocks the next one in that category.</p><p>Earn 3 hints the first time you solve a puzzle. Daily streak rewards are 3 hints on days 1–2, 5 on days 3–4, and 7 from day 5 onward. Missing a day restarts the streak. Revealing a letter costs 1 hint.</p><p class="credits">Some clues adapted from <a href="wordnet-license.txt">Princeton WordNet</a>.</p><form method="dialog"><button class="outline" autofocus>Got it</button></form></dialog>
 <script src="puzzles.js" defer></script>
 <script src="game.js" defer></script>
 <script src="./install.js" defer></script>

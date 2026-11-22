@@ -112,18 +112,15 @@ progress::-moz-progress-bar { background: currentColor; border-radius: 8px; }
 .square.selected { box-shadow: inset 0 0 0 2px var(--accent-dark); }
 .square:active { background: var(--lime); }
 .dock { padding-top: 5px; min-width: 0; }
-.current { background: var(--accent-dark); color: white; border-radius: 12px; display: grid; grid-template-columns: 44px minmax(0,1fr) 44px; align-items: stretch; gap: 4px; height: 76px; }
-.clue-body { display: grid; grid-template-rows: 26px minmax(0,1fr); min-height: 0; min-width: 0; padding: 2px 4px 5px; text-align: center; }
-.clue-heading { display: flex; align-items: center; justify-content: center; gap: 6px; }
-.clue-copy { min-width: 0; overflow: auto; scrollbar-width: thin; }
-.direction { color: var(--lime); font-size: .8125rem; font-weight: 800; }
+.current { background: var(--accent-dark); color: white; border-radius: 12px; display: grid; grid-template-columns: 44px minmax(0,1fr) 44px; align-items: stretch; gap: 4px; height: 60px; }
+.clue-body { display: flex; min-height: 0; min-width: 0; padding: 4px; text-align: center; }
+.clue-copy { margin: auto; min-width: 0; max-height: 100%; overflow: auto; scrollbar-width: thin; }
 .current strong { font-size: .9375rem; line-height: 1.25; overflow-wrap: anywhere; }
-.clue-nav, .switch { border: 1px solid transparent; color: white; background: transparent; font-weight: 750; }
+.clue-nav { border: 1px solid transparent; color: white; background: transparent; font-weight: 750; }
 .clue-nav { padding: 0; font-size: 1.8rem; border-radius: 10px; }
-.switch { min-height: 24px; padding: 0 6px; border-color: #aab0e2; border-radius: 8px; font-size: .8125rem; }
-.clue-nav:hover, .switch:hover { background: #3e4b9b; }
-.clue-nav:active, .switch:active { background: var(--accent); }
-.clue-nav:focus-visible, .switch:focus-visible { outline-color: var(--lime); outline-offset: -4px; }
+.clue-nav:hover { background: #3e4b9b; }
+.clue-nav:active { background: var(--accent); }
+.clue-nav:focus-visible { outline-color: var(--lime); outline-offset: -4px; }
 .keyboard { display: grid; gap: 4px; margin: 6px 0; }
 .keys { display: flex; justify-content: center; gap: 4px; }
 .keys button { width: min(9.6%,64px); min-width: 0; min-height: 44px; padding: 0; border: 1px solid #bbbfc8; border-radius: 6px; background: var(--surface); font-size: .9375rem; font-weight: 800; }

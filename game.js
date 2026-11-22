@@ -3,7 +3,6 @@ const storageKey = "word-tiles-v2";
 const byId = id => document.getElementById(id);
 const board = byId("board"), frame = byId("frame");
 const keyButtons = [];
-const switchButton = byId("switch-word");
 const hintButton = button("Hint", "hint-key", () => enter("reveal"));
 hintButton.setAttribute("aria-label", "Reveal letter for one hint");
 let memory, state, puzzle, category, cells, selected, activeWord, selectionVersion = 0;
@@ -87,6 +86,7 @@ function migrateGrids(saved) {
     if (!game) continue;
     const previous = game.letters || {};
     const mapping = saved.compactGrids ? model.compactCells : model.legacyCells;
+    if (!mapping) continue;
     const letters = {};
     for (const [position, cell] of model.cells) {
       const candidates = mapping[position].map(index => previous[index]).filter(Boolean);
@@ -367,17 +367,12 @@ function render(message) {
   }
   byId("dock").hidden = !activeWord;
   if (activeWord) {
-    byId("direction").textContent = activeWord.number + (activeWord.direction === "across" ? " Across" : " Down");
     const clue = byId("current");
     const definition = activeWord.clue + " (" + activeWord.answer.length + ")";
     if (clue.textContent !== definition) {
       clue.textContent = definition;
       byId("clue-copy").scrollTop = 0;
     }
-    const otherWord = cells.get(selected).words.find(word => word !== activeWord);
-    switchButton.hidden = !otherWord;
-    if (otherWord) switchButton.textContent = otherWord.direction === "across" ? "Across" : "Down";
-    if (otherWord) switchButton.setAttribute("aria-label", "Switch to " + switchButton.textContent);
     hintButton.disabled = !state.balance || locked.has(selected);
     for (const key of keyButtons) key.disabled = solved.has(activeWord);
   }
@@ -497,7 +492,6 @@ document.addEventListener("keydown", event => {
     enter(event.key === "Backspace" ? event.key : event.key.toUpperCase());
   }
 });
-switchButton.addEventListener("click", () => selectCell(selected));
 document.querySelector(".skip").addEventListener("click", event => {
   event.preventDefault();
   byId("main-content").focus();

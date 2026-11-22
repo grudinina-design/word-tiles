@@ -1055,6 +1055,74 @@ const puzzles = [
     ]
   },
   {
+    "id": "easy-51", "category": "easy", "title": "A Bright Start", "width": 11, "height": 12,
+    "words": [
+      ["MUST", "A necessary or essential thing", 0, 8, "across"],
+      ["THOU", "An old-fashioned word for you, used for one person", 4, 7, "down"],
+      ["ZERO", "The number between minus one and one", 0, 10, "across"],
+      ["HAND", "The part of your body with a palm and fingers", 3, 9, "across"],
+      ["SOLD", "Bought by someone else, as a marked item at an auction", 7, 5, "down"],
+      ["VOID", "An empty area or space", 5, 7, "across"],
+      ["CARD", "A small piece of stiff paper you might send for a birthday", 9, 3, "down"],
+      ["RACK", "Framework for holding objects", 6, 4, "across"],
+      ["LOOK", "Direct your eyes toward something", 10, 0, "down"],
+      ["HEAR", "Notice a sound with your ears", 7, 0, "down"],
+      ["FIVE", "The number of fingers on one hand, including the thumb", 3, 2, "across"],
+      ["FLAG", "A piece of cloth that represents a country or group", 4, 1, "down"]
+    ]
+  },
+  {
+    "id": "easy-52", "category": "easy", "title": "A Stroll", "width": 9, "height": 12,
+    "words": [
+      ["PLUG", "The part of a cable you push into a socket", 0, 1, "across"],
+      ["PLAY", "Participate in games or sport", 1, 0, "down"],
+      ["USER", "Someone who uses a product or service", 3, 0, "down"],
+      ["ENTRY", "An item added to a list", 2, 3, "across"],
+      ["TREE", "A tall plant with a woody trunk", 6, 1, "down"],
+      ["FRESH", "Recently made, produced, or harvested", 3, 5, "across"],
+      ["SKIN", "The outer covering of your body", 7, 4, "down"],
+      ["PIANO", "Keyboard instrument with pedals and strings", 3, 8, "across"],
+      ["SPENT", "Used up, as money or energy can be", 4, 6, "down"],
+      ["FOOT", "The part of your body inside a shoe", 0, 11, "across"],
+      ["PROOF", "Any factual evidence that helps to establish the truth of something", 1, 6, "down"],
+      ["NOTED", "Well known for a particular quality", 3, 10, "across"]
+    ]
+  },
+  {
+    "id": "easy-53", "category": "easy", "title": "One at a Time", "width": 10, "height": 12,
+    "words": [
+      ["FOOD", "What you eat for energy", 0, 6, "across"],
+      ["DONE", "Cooked until ready to serve", 2, 4, "down"],
+      ["NEED", "Require something", 0, 8, "across"],
+      ["NICE", "Pleasant or kind", 1, 7, "down"],
+      ["EVEN", "Divisible by two", 3, 7, "down"],
+      ["BRAND", "A name given to a product or service", 4, 1, "down"],
+      ["COURT", "A place where a judge hears cases", 0, 3, "across"],
+      ["PICK", "Choose from a group of options", 1, 0, "down"],
+      ["ENABLE", "Make something possible", 2, 10, "across"],
+      ["PHASE", "One stage in a process", 8, 5, "down"],
+      ["TEAM", "A group of players who compete together", 5, 8, "across"],
+      ["SUIT", "A matching jacket and trousers", 6, 4, "down"]
+    ]
+  },
+  {
+    "id": "easy-54", "category": "easy", "title": "On the Way", "width": 12, "height": 12,
+    "words": [
+      ["CENTRE", "The middle of something, in British spelling", 5, 7, "across"],
+      ["HEAD", "The part of your body that contains your brain", 11, 5, "down"],
+      ["RECIPE", "Instructions for cooking a dish", 7, 5, "down"],
+      ["TIGER", "A large wild cat with dark stripes", 9, 6, "down"],
+      ["ENDING", "The last part of a story", 3, 9, "across"],
+      ["PRICE", "The amount of money needed to purchase something", 4, 4, "down"],
+      ["COUPLE", "Two people in a romantic relationship", 1, 11, "across"],
+      ["LOGIC", "Reasoning based on rules and evidence", 2, 6, "down"],
+      ["OUTPUT", "What a machine or system produces", 0, 5, "across"],
+      ["MOUNT", "Climb up onto something, as you would onto a horse", 6, 0, "down"],
+      ["SUGAR", "Sweet crystals often stirred into tea", 4, 3, "across"],
+      ["JAVA", "An informal word for coffee", 8, 1, "down"]
+    ]
+  },
+  {
     "category": "normal", "id": "curious-minds", "title": "Curious Minds", "width": 13, "height": 14,
     "legacyCells": {"16":[97,214],"17":[112],"18":[25,127],"19":[142],"20":[157],"21":[172],"23":[61],"25":[144],"28":[35],"31":[40],"36":[76],"38":[159],"41":[50],"44":[55],"46":[108],"47":[107,123,211],"48":[138],"49":[91,153],"50":[168],"51":[72,174,183],"53":[155],"54":[65,170],"55":[185],"56":[186,200],"57":[70,184,215],"58":[230],"60":[212],"62":[106],"64":[189],"67":[80],"70":[85],"73":[213],"75":[121],"77":[102,204],"80":[95,145],"83":[100],"86":[97,214],"88":[136,147],"90":[219],"93":[110],"96":[115,181],"97":[57,182,238],"98":[183],"99":[70,184,215],"100":[185],"101":[151,186,200],"103":[234],"106":[125],"110":[72,183],"121":[141],"122":[142],"123":[87,143],"124":[144],"125":[95,145],"126":[146],"127":[136,147],"136":[102,204],"146":[106],"147":[107,211],"148":[108],"149":[109,117],"150":[110],"151":[111],"152":[112,132],"162":[112,132],"174":[233],"175":[147,234],"176":[235],"177":[236],"178":[237],"179":[182,238],"180":[239]},
     "compactCells": {"16":[138],"17":[139],"18":[87,140],"19":[141],"20":[142],"21":[143],"23":[211],"25":[64],"28":[182],"31":[102],"36":[212],"38":[65],"41":[183],"44":[117],"46":[33],"47":[34,93],"48":[35],"49":[36,213],"50":[37],"51":[38,66],"53":[89],"54":[104,184],"55":[119],"56":[134],"57":[132,149],"58":[164],"60":[108],"62":[214],"64":[67],"67":[185],"70":[147],"73":[123],"75":[215],"77":[68],"80":[186],"83":[162],"86":[138],"88":[216],"90":[69],"93":[187],"96":[129,177],"97":[23,130],"98":[131],"99":[132,153],"100":[133],"101":[134,217],"103":[70],"106":[188],"110":[38],"121":[126],"122":[141],"123":[53,156],"124":[171],"125":[186],"126":[201],"127":[216],"136":[68],"146":[92],"147":[93],"148":[94],"149":[83,95],"150":[96],"151":[97],"152":[98],"162":[98],"174":[55],"175":[70,113],"176":[85],"177":[100],"178":[115],"179":[130],"180":[145]},
@@ -1321,6 +1389,78 @@ const puzzles = [
     ]
   },
   {
+    "id": "normal-14", "category": "normal", "title": "A New Angle", "width": 13, "height": 13,
+    "words": [
+      ["AVOID", "Prevent the occurrence of", 6, 6, "across"],
+      ["MOOD", "A characteristic (habitual or relatively temporary) state of feeling", 11, 2, "down"],
+      ["GNOME", "A legendary creature resembling a tiny old man", 7, 3, "across"],
+      ["MENTION", "A remark that calls attention to something or someone", 9, 0, "down"],
+      ["MATH", "A science (or group of related sciences) dealing with the logic of quantity and shape and arrangement", 8, 1, "across"],
+      ["PRAYER", "Earnest or urgent request", 7, 3, "down"],
+      ["RUBBER", "Elastic material used to make tires", 6, 9, "across"],
+      ["BULK", "The property resulting from being or relating to the greater in number of two parts", 9, 8, "down"],
+      ["METER", "The basic unit of length adopted under the systeme international d'unites (approximately 1.094 yards)", 11, 7, "down"],
+      ["ARTWORK", "Photographs or other visual representations in a printed publication", 2, 12, "across"],
+      ["VINTAGE", "A season's yield of wine from a vineyard", 0, 8, "across"],
+      ["ROYALTY", "Payment to the holder of a patent or copyright or resource for the right to use their property", 4, 2, "down"],
+      ["DYNAMICS", "The branch of mechanics concerned with the forces that cause motions of bodies", 2, 2, "down"]
+    ]
+  },
+  {
+    "id": "normal-15", "category": "normal", "title": "On Second Thought", "width": 14, "height": 16,
+    "words": [
+      ["HORIZON", "Where the sky seems to meet the land", 5, 4, "across"],
+      ["CRAZY", "Wildly impractical, as a plan might be", 10, 0, "down"],
+      ["ACQUIRED", "Gotten through environmental forces", 4, 2, "across"],
+      ["OUTREACH", "The act of reaching out", 8, 0, "down"],
+      ["SHELTER", "Protection from weather or danger", 6, 8, "across"],
+      ["VERTICAL", "At right angles to the plane of the horizon or a base line", 1, 6, "across"],
+      ["VELVET", "Soft fabric with a short, dense pile", 2, 2, "down"],
+      ["JOURNEY", "The act of traveling from one place to another", 4, 2, "down"],
+      ["HEATING", "The process of becoming warmer", 12, 6, "down"],
+      ["MEASURING", "Finding the size or amount of something", 3, 13, "across"],
+      ["POSTAGE", "The charge for mailing something", 6, 8, "down"],
+      ["LICENSED", "Given official approval to act", 2, 15, "across"],
+      ["REPRESENT", "Take the place of or be parallel or equivalent to", 0, 11, "across"]
+    ]
+  },
+  {
+    "id": "normal-16", "category": "normal", "title": "Loose Ends", "width": 13, "height": 15,
+    "words": [
+      ["CONFLICT", "An open clash between two opposing groups (or individuals)", 6, 0, "down"],
+      ["CHAR", "A human female employed to do housework", 5, 7, "across"],
+      ["PREMIER", "The person who holds the position of head of the government in the united kingdom", 9, 0, "down"],
+      ["CONTRARY", "A relation of direct opposition", 4, 2, "across"],
+      ["WRAP", "A sandwich in which the filling is rolled up in a soft tortilla", 11, 0, "down"],
+      ["TOILET", "A bathroom fixture that flushes waste", 0, 8, "across"],
+      ["RESIDENT", "Someone who lives at a particular place for a prolonged period or who was born there", 1, 0, "down"],
+      ["TOWNSHIP", "An administrative division of a county", 3, 1, "down"],
+      ["AVENUE", "Broad city street", 8, 6, "down"],
+      ["WAREHOUSE", "A storehouse for goods and merchandise", 1, 11, "across"],
+      ["WEALTH", "The state of being rich and affluent", 6, 9, "across"],
+      ["SOUTHEAST", "The compass point midway between south and east", 12, 4, "down"],
+      ["CREEK", "A natural stream of water smaller than a river (and often a tributary of a river)", 4, 9, "down"]
+    ]
+  },
+  {
+    "id": "normal-17", "category": "normal", "title": "A Closer Look", "width": 15, "height": 15,
+    "words": [
+      ["STANDING", "Upright on your feet", 1, 10, "across"],
+      ["RISE", "A growth in strength or number or importance", 7, 8, "down"],
+      ["FORTUNE", "An unknown and unpredictable phenomenon that causes an event to result one way rather than another", 0, 12, "across"],
+      ["PASSPORT", "Document used for international travel", 2, 6, "down"],
+      ["HARBOR", "Sheltered place for ships", 0, 8, "across"],
+      ["ATHLETICS", "An active diversion requiring physical exertion and competition", 0, 14, "across"],
+      ["DOLLAR", "The basic monetary unit in many countries", 6, 2, "down"],
+      ["CONSOLE", "A small table fixed to a wall or designed to stand against a wall", 1, 4, "across"],
+      ["FREEWARE", "Software that is provided without charge", 8, 0, "down"],
+      ["CERTIFIED", "Endorsed authoritatively as having met certain requirements", 2, 1, "across"],
+      ["DEMOCRACY", "The political orientation of those who favor government by the people or by their elected representatives", 11, 0, "down"],
+      ["EXAMINE", "Consider in detail and subject to an analysis in order to discover essential features or meaning", 7, 3, "across"],
+      ["RECYCLING", "The act of processing used or abandoned materials for use in creating new products", 14, 1, "down"]
+    ]
+  },
+  {
     "category": "hard", "id": "fine-print", "title": "The Fine Print", "width": 16, "height": 16,
     "legacyCells": {"18":[177],"19":[191],"20":[205],"21":[219],"22":[233],"23":[247],"24":[261],"25":[75,115,275],"26":[289],"33":[22],"41":[89,271],"45":[171],"49":[36,89,271],"50":[285],"51":[179,299],"52":[313],"53":[327],"54":[341],"55":[355],"56":[369],"57":[103,120,285,383],"58":[397],"61":[185],"63":[216],"65":[50],"67":[193,227],"73":[117],"77":[199],"79":[217],"81":[64],"83":[207,291],"84":[305],"85":[319],"86":[333],"87":[347],"88":[113,361],"89":[131,375],"90":[389],"91":[403],"93":[213],"95":[218],"97":[78],"99":[221],"105":[145,185],"109":[193,227],"111":[219],"113":[92],"115":[235,281],"116":[267,282],"117":[283],"118":[284],"119":[285,383],"120":[286],"121":[106,159,287],"125":[241],"127":[220],"129":[106,287],"131":[225,249],"137":[173,451],"139":[113,361],"141":[255],"143":[221],"145":[120],"147":[263],"151":[169],"152":[183],"153":[187,197],"154":[211],"155":[114,225,249],"156":[239],"157":[253,269],"158":[267,282],"159":[222,281],"169":[74,201],"171":[115,275],"173":[283],"175":[223],"187":[116],"203":[117],"213":[243],"214":[244],"215":[245],"216":[246],"217":[247],"218":[248],"219":[118,249],"220":[250],"221":[251],"235":[119],"244":[144],"245":[145],"246":[146],"247":[147],"248":[148],"249":[149],"250":[150],"251":[103,120,151],"252":[152],"253":[153]},
     "compactCells": {"18":[57],"19":[75],"20":[93],"21":[111],"22":[129],"23":[147],"24":[165],"25":[152,183],"26":[201],"33":[208],"41":[170],"45":[45],"49":[170,209],"50":[171],"51":[31,172],"52":[173],"53":[174],"54":[175],"55":[176],"56":[177],"57":[178,188],"58":[179],"61":[46],"63":[80],"65":[210],"67":[49],"73":[206],"77":[47],"79":[81],"81":[211],"83":[67,91],"84":[109],"85":[127],"86":[145],"87":[163],"88":[181],"89":[199,224],"90":[217],"91":[235],"93":[48],"95":[82],"97":[212],"99":[85],"105":[242],"109":[49],"111":[83],"113":[213],"115":[103,106],"116":[124],"117":[142],"118":[160],"119":[178],"120":[196],"121":[214,260],"125":[50],"127":[84],"129":[214],"131":[121],"137":[278],"139":[181],"141":[51],"143":[85],"145":[215],"147":[139],"151":[117],"152":[118],"153":[119,296],"154":[120],"155":[121,182],"156":[122],"157":[52,123],"158":[124],"159":[86,125],"169":[314],"171":[183],"173":[53],"175":[87],"187":[184],"203":[185],"213":[],"214":[],"215":[],"216":[],"217":[],"218":[],"219":[186],"220":[],"221":[],"235":[187],"244":[],"245":[],"246":[],"247":[],"248":[],"249":[],"250":[],"251":[188],"252":[],"253":[]},
@@ -1574,6 +1714,74 @@ const puzzles = [
     ]
   },
   {
+    "id": "hard-14", "category": "hard", "title": "The Fine Line", "width": 14, "height": 15,
+    "words": [
+      ["NOTEPAD", "A pad of paper for keeping notes", 4, 6, "down"],
+      ["LATENCY", "The time that elapses between a stimulus and the response to it", 0, 10, "across"],
+      ["MIDLAND", "The interior part of a country", 1, 6, "down"],
+      ["SALVAGE", "Property or goods saved from damage or destruction", 2, 12, "across"],
+      ["PLATTER", "A large shallow dish used for serving food", 9, 6, "down"],
+      ["ZEPPELIN", "A rigid airship with a long, cigar-shaped body", 5, 7, "across"],
+      ["LOCATING", "The act of putting something in a certain place", 11, 6, "down"],
+      ["NUTSHELL", "The shell around the kernel of a nut", 13, 6, "down"],
+      ["NARROWED", "Became less wide", 7, 0, "down"],
+      ["PROMOTER", "Someone who is an active supporter and advocate", 5, 3, "across"],
+      ["INFERIOR", "One of lesser rank or station or quality", 5, 1, "across"],
+      ["HUMOROUS", "Full of or characterized by humor", 1, 5, "across"]
+    ]
+  },
+  {
+    "id": "hard-15", "category": "hard", "title": "A Matter of Words", "width": 13, "height": 15,
+    "words": [
+      ["ORGANISM", "An individual living thing", 5, 0, "down"],
+      ["COMPOST", "A mixture of decaying vegetation and manure", 2, 8, "across"],
+      ["NUTRIENT", "A substance a living thing needs to grow or stay healthy", 9, 0, "down"],
+      ["CHROMIUM", "Shiny metal that gives chrome plating its name", 2, 2, "across"],
+      ["HAMBURGER", "A sandwich consisting of a fried cake of minced beef served on a bun, often with other ingredients", 3, 4, "across"],
+      ["WORRYING", "Causing concern or anxiety", 12, 0, "down"],
+      ["ORIGINATE", "Begin or come from a particular place", 0, 6, "across"],
+      ["SHOWROOM", "Space where products such as cars are displayed for sale", 1, 0, "down"],
+      ["STERILE", "Free of living microorganisms", 8, 7, "down"],
+      ["COLISEUM", "An oval large stadium with tiers of seats", 4, 12, "across"],
+      ["CUCUMBER", "A long green vegetable often sliced into salads", 1, 10, "across"],
+      ["COOPERATE", "Work together toward a shared goal", 3, 14, "across"]
+    ]
+  },
+  {
+    "id": "hard-16", "category": "hard", "title": "Beyond the Clue", "width": 15, "height": 15,
+    "words": [
+      ["WANDERING", "Travelling about without any clear destination", 5, 7, "across"],
+      ["SHAPING", "Any process serving to define the shape of something", 14, 0, "down"],
+      ["BAROQUE", "Elaborately ornate European style of art and architecture", 10, 0, "down"],
+      ["ASPHALT", "A dark bituminous substance found in natural beds and as residue from petroleum distillation", 5, 2, "across"],
+      ["JACKPOT", "The largest prize in a game of chance", 4, 4, "across"],
+      ["MILLING", "Corrugated edge of a coin", 12, 5, "down"],
+      ["GROOMING", "Brushing, cleaning or tending an animal’s coat", 4, 12, "across"],
+      ["DAVENPORT", "A small decorative writing desk", 7, 5, "down"],
+      ["STEAMBOAT", "A boat propelled by a steam engine", 5, 14, "across"],
+      ["SWEEPING", "The act of cleaning with a broom", 0, 10, "across"],
+      ["GRAPHITE", "A form of carbon used in pencils", 3, 2, "down"],
+      ["PURCHASER", "A person who buys", 1, 3, "down"]
+    ]
+  },
+  {
+    "id": "hard-17", "category": "hard", "title": "The Last Detail", "width": 15, "height": 16,
+    "words": [
+      ["BREAKOUT", "An escape from jail", 6, 10, "across"],
+      ["GETAWAY", "A short holiday or an escape", 14, 7, "down"],
+      ["FOOTNOTE", "A printed note placed below the text on a printed page", 12, 7, "down"],
+      ["PERCEIVE", "To become aware of through the senses", 8, 7, "down"],
+      ["BELEAGUER", "Pester persistently or lay siege to", 4, 15, "across"],
+      ["DEPLETION", "The act of decreasing something markedly", 3, 12, "across"],
+      ["SOLITUDE", "A state of social isolation", 4, 5, "down"],
+      ["TABLETOP", "The top horizontal work surface of a table", 0, 8, "across"],
+      ["BACKWARD", "Directed or facing toward the back or rear", 2, 6, "down"],
+      ["CONFRONT", "Oppose, as in hostility or a competition", 6, 0, "down"],
+      ["DEFENDING", "Attempting to or designed to prevent an opponent from winning or scoring", 1, 3, "across"],
+      ["CAVALIER", "A gallant or courtly gentleman", 5, 1, "across"]
+    ]
+  },
+  {
     "category": "letter", "id": "letter-s", "title": "Starts With S", "width": 14, "height": 15,
     "legacyCells": {"21":[27,56],"22":[75],"23":[94],"24":[113],"25":[132],"26":[151],"27":[170],"35":[28],"47":[343],"48":[344],"49":[29,87,345],"50":[46,346],"51":[347],"52":[274,348],"53":[349],"54":[350],"63":[30],"72":[217,354],"73":[355],"74":[356,381],"75":[357],"76":[358],"77":[31,84,359],"91":[32],"97":[291],"101":[210,302],"103":[182,219,259,286],"104":[183],"105":[33,184],"106":[185],"107":[186],"108":[119,187,217],"109":[188],"111":[310],"115":[211],"117":[238],"119":[34],"122":[120],"125":[329],"127":[219,259,313],"128":[314],"129":[212,315],"130":[316],"131":[179,257,317,345],"132":[318],"134":[182,210,286,302],"135":[321],"136":[121,340],"137":[359],"138":[378],"139":[348,397],"141":[260],"143":[213],"145":[276],"148":[305],"150":[122],"153":[367],"155":[80,261],"157":[214],"159":[295],"162":[324],"164":[123],"167":[386],"169":[262],"171":[215],"173":[314],"176":[187,217,343],"177":[236],"178":[124,255],"179":[274,348],"180":[293],"183":[263],"185":[216],"190":[362],"192":[125],"197":[264],"199":[187,217,354],"200":[206],"201":[225],"202":[244],"203":[263],"204":[282,356,381],"206":[126]},
     "compactCells": {"21":[159],"22":[],"23":[],"24":[],"25":[],"26":[],"27":[],"35":[175],"47":[54],"48":[70],"49":[86,191],"50":[102],"51":[118],"52":[134],"53":[150],"54":[166],"63":[207],"72":[24],"73":[40],"74":[56],"75":[72],"76":[88],"77":[104,223],"91":[239],"97":[],"101":[17],"103":[51,152],"104":[67],"105":[83,255],"106":[99],"107":[115],"108":[131],"109":[147],"111":[],"115":[18],"117":[153],"119":[271],"122":[],"125":[],"127":[45,152],"128":[61],"129":[19,77],"130":[93],"131":[109,154],"132":[125],"134":[17,51],"135":[33],"136":[49],"137":[65],"138":[81],"139":[97],"141":[168],"143":[20],"145":[155],"148":[52],"150":[],"153":[],"155":[184],"157":[21],"159":[156],"162":[53],"164":[],"167":[],"169":[200],"171":[22],"173":[157],"176":[54,131],"177":[132],"178":[133],"179":[134],"180":[135],"183":[216],"185":[23],"190":[55],"192":[],"197":[232],"199":[24,212],"200":[213],"201":[214],"202":[215],"203":[216],"204":[56,217],"206":[]},
@@ -1640,6 +1848,23 @@ const puzzles = [
     ]
   },
   {
+    "id": "letter-m", "category": "letter", "title": "Starts With M", "width": 12, "height": 12,
+    "words": [
+      ["MEADOW", "Open field of grass and wildflowers", 3, 8, "across"],
+      ["MOTH", "Winged insect often drawn to lamps at night", 4, 7, "down"],
+      ["MAPLE", "Tree whose sap can be boiled into syrup", 6, 6, "down"],
+      ["MELON", "Round fruit with a thick rind", 8, 4, "down"],
+      ["MIST", "Thin cloud of droplets close to the ground", 7, 5, "across"],
+      ["MATCHBOX", "Small container for sticks used to light a flame", 11, 2, "down"],
+      ["MINT", "Herb with a cool flavor, often used in tea", 0, 10, "across"],
+      ["MUFFIN", "Small baked cake with a domed top", 2, 5, "down"],
+      ["MULE", "Offspring of a male donkey and a female horse", 1, 6, "across"],
+      ["MARBLE", "Polishable stone sometimes used for statues", 5, 0, "down"],
+      ["MUSSEL", "Shellfish with a dark, elongated hinged shell", 4, 1, "across"],
+      ["MARSH", "Wet area of land where grasses and reeds grow", 2, 3, "across"]
+    ]
+  },
+  {
     "category": "theme", "id": "ocean", "title": "Under the Sea", "width": 14, "height": 14,
     "legacyCells": {"19":[182,332],"20":[93,333],"21":[106,334],"22":[335],"23":[33,336],"24":[337],"25":[338],"27":[65,70],"33":[141,201],"41":[84],"43":[30],"46":[148,219],"47":[220],"48":[221],"49":[222],"50":[223],"51":[224],"52":[186,225,298],"53":[226],"55":[103,150],"57":[31],"66":[205],"69":[122],"71":[32],"75":[30],"80":[179,224],"81":[180],"82":[181],"83":[141,182,201,332],"85":[33,68,336],"86":[69],"87":[65,70],"88":[71],"89":[49,72],"90":[73,108],"92":[73,108],"94":[243],"97":[160],"99":[34],"103":[68],"105":[145],"106":[127,146],"107":[147],"108":[148,219,262],"111":[106,179],"117":[87],"120":[146],"122":[281],"130":[93,105,294,333],"131":[106,179,334],"132":[107],"133":[108],"134":[109,165],"135":[110],"136":[111,300],"137":[112],"144":[112],"156":[105,294],"157":[295],"158":[131,296],"159":[297],"160":[225,298],"161":[299],"162":[300],"163":[301,376],"172":[103,150],"183":[372],"184":[373],"185":[374],"186":[169,375],"187":[301,376],"188":[377],"189":[378],"190":[379]},
     "compactCells": {"19":[77,110],"20":[78],"21":[79],"22":[80],"23":[81],"24":[82],"25":[83],"27":[121],"33":[125],"41":[122],"43":[36],"46":[26],"47":[41,140],"48":[56],"49":[71],"50":[86],"51":[101],"52":[116,196],"53":[131],"55":[123],"57":[51],"66":[197],"69":[124],"71":[66],"75":[19],"80":[32,198],"81":[47],"82":[62],"83":[77,125],"85":[81,91],"86":[106],"87":[121],"88":[136],"89":[34,151],"90":[166],"92":[166],"94":[199],"97":[126],"99":[96],"103":[49],"105":[23],"106":[24,167],"107":[25],"108":[26,200],"111":[127],"117":[64],"120":[168],"122":[201],"130":[78,112],"131":[79,127],"132":[142],"133":[157],"134":[169,172],"135":[187],"136":[202],"137":[217],"144":[93],"156":[112],"157":[113],"158":[108,114],"159":[115],"160":[116],"161":[117],"162":[118],"163":[119],"172":[123],"183":[59],"184":[74],"185":[89],"186":[104,138],"187":[119],"188":[134],"189":[149],"190":[164]},
@@ -1703,6 +1928,25 @@ const puzzles = [
       ["GONDOLA", "Open-topped freight car with fixed sides", 11, 7, "down"],
       ["BUFFET", "Refreshment counter on some passenger trains", 7, 4, "across"],
       ["FIREBOX", "Chamber in a steam locomotive where fuel burns", 12, 0, "down"]
+    ]
+  },
+  {
+    "id": "makers-table", "category": "theme", "title": "The Maker’s Table", "width": 11, "height": 12,
+    "words": [
+      ["DOWEL", "Round wooden peg used to join pieces", 10, 2, "down"],
+      ["AWL", "Pointed hand tool for piercing leather", 7, 7, "across"],
+      ["BEAD", "Small decorative piece with a hole for threading", 8, 4, "down"],
+      ["MOLD", "Hollow form used to shape a material as it sets", 6, 3, "across"],
+      ["HEM", "Folded and stitched edge of fabric", 7, 0, "down"],
+      ["FILE", "Rough-edged tool used to smooth or shape metal", 4, 6, "across"],
+      ["JIG", "Guide that holds a tool or workpiece in position", 6, 4, "down"],
+      ["GLAZE", "Coating that becomes glassy when pottery is fired", 2, 2, "across"],
+      ["CLAMP", "Tool that holds pieces together while glue dries", 4, 0, "down"],
+      ["LOOM", "Frame on which yarn is woven into cloth", 0, 4, "across"],
+      ["PLIERS", "Hand tool with jaws for gripping or bending", 1, 2, "down"],
+      ["SKEIN", "Length of yarn loosely wound into a bundle", 0, 8, "across"],
+      ["RIVET", "Metal fastener with a head that secures pieces together", 4, 6, "down"],
+      ["VENEER", "Thin sheet of wood glued onto a surface", 2, 10, "across"]
     ]
   }
 ];
