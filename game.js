@@ -3,10 +3,10 @@ const storageKey = "word-tiles-v2";
 const byId = id => document.getElementById(id);
 const board = byId("board"), frame = byId("frame");
 const keyButtons = [];
-const viewButton = byId("board-view"), switchButton = byId("switch-word");
+const switchButton = byId("switch-word");
 let memory, state, puzzle, category, cells, selected, activeWord, selectionVersion = 0;
 let pending = Promise.resolve();
-let fitted = false;
+let gridColumns, gridRows;
 
 function read() {
   try {
@@ -181,9 +181,17 @@ function loadGame() {
   cells = new Map([...puzzle.cells].map(([position, cell]) =>
     [position, {...cell, square:button("", "square", () => selectCell(position))}]
   ));
-  board.style.setProperty("--cols", puzzle.width);
-  board.replaceChildren(...Array.from({length:puzzle.width * puzzle.height}, (_, i) => {
-    if (cells.has(i)) return cells.get(i).square;
+  const columns = [...cells.keys()].map(position => position % puzzle.width);
+  const rows = [...cells.keys()].map(position => Math.floor(position / puzzle.width));
+  const left = Math.min(...columns);
+  const top = Math.min(...rows);
+  gridColumns = Math.max(...columns) - left + 1;
+  gridRows = Math.max(...rows) - top + 1;
+  board.style.setProperty("--cols", gridColumns);
+  board.style.setProperty("--rows", gridRows);
+  board.replaceChildren(...Array.from({length:gridColumns * gridRows}, (_, i) => {
+    const position = (top + Math.floor(i / gridColumns)) * puzzle.width + left + i % gridColumns;
+    if (cells.has(position)) return cells.get(position).square;
     const blank = document.createElement("div");
     blank.className = "void";
     blank.setAttribute("aria-hidden", "true");
@@ -192,42 +200,18 @@ function loadGame() {
   selected = undefined;
   activeWord = undefined;
   selectionVersion++;
-  setFit(false);
-  frame.scrollTop = frame.scrollLeft = 0;
+  byId("dock").hidden = true;
+  fitGrid();
   byId("status").textContent = "";
 }
 
-function sizeOverview() {
-  if (!puzzle || !fitted) return;
-  const width = (frame.clientWidth - 8 - (puzzle.width - 1)) / puzzle.width;
-  const height = (frame.clientHeight - 8 - (puzzle.height - 1)) / puzzle.height;
-  frame.style.setProperty("--fit-cell", Math.max(1, Math.min(width, height, 44)) + "px");
-}
-
-function setFit(value) {
-  fitted = value;
-  frame.classList.toggle("fitted", value);
-  byId("game").classList.toggle("overview", value);
-  byId("dock").hidden = value || !activeWord;
-  viewButton.setAttribute("aria-pressed", value);
-  viewButton.textContent = value ? "Actual size" : "Fit grid";
-  if (fitted) {
-    sizeOverview();
-    frame.scrollTop = frame.scrollLeft = 0;
-  } else if (selected !== undefined) {
-    revealSelection();
-  }
-}
-
-function revealSelection() {
-  const square = cells.get(selected).square.getBoundingClientRect();
-  const viewport = frame.getBoundingClientRect();
-  if (square.left < viewport.left || square.right > viewport.left + frame.clientWidth) {
-    frame.scrollLeft += square.left - viewport.left - frame.clientWidth / 2 + square.width / 2;
-  }
-  if (square.top < viewport.top || square.bottom > viewport.top + frame.clientHeight) {
-    frame.scrollTop += square.top - viewport.top - frame.clientHeight / 2 + square.height / 2;
-  }
+function fitGrid() {
+  if (!puzzle || !frame.clientWidth || !frame.clientHeight) return;
+  // The grid has a 1px gap and 4px of padding on each edge.
+  const width = (frame.clientWidth - 8 - (gridColumns - 1)) / gridColumns;
+  const height = (frame.clientHeight - 8 - (gridRows - 1)) / gridRows;
+  const size = Math.max(2, Math.floor(Math.min(width, height, 44) * 10) / 10);
+  board.style.setProperty("--cell", size + "px");
 }
 
 function selectCell(position) {
@@ -240,9 +224,7 @@ function selectCell(position) {
       || choices.find(word => !solved.has(word)) || choices[0];
   selected = position;
   selectionVersion++;
-  if (fitted) setFit(false);
   render();
-  revealSelection();
 }
 
 function lockedCells(solved) {
@@ -270,7 +252,7 @@ function render(message) {
     const column = position % puzzle.width + 1;
     square.setAttribute("aria-label", "Row " + row + ", column " + column + ", " + (entries[position] || "empty") + (locked.has(position) ? ", locked" : "") + (position === selected ? ", selected" : ""));
   }
-  byId("dock").hidden = fitted || !activeWord;
+  byId("dock").hidden = !activeWord;
   if (activeWord) {
     byId("direction").textContent = activeWord.direction === "across" ? "Across →" : "Down ↓";
     byId("current").textContent = activeWord.clue + " (" + activeWord.answer.length + ")";
@@ -280,13 +262,14 @@ function render(message) {
     byId("hint").disabled = !state.balance || locked.has(selected);
     for (const key of keyButtons) key.disabled = solved.has(activeWord);
   }
+  fitGrid();
   byId("progress").textContent = solved.size + " / " + puzzle.words.length + " words solved";
   if (message !== undefined) byId("status").textContent = message;
   else if (solved.size === puzzle.words.length && !byId("status").textContent) byId("status").textContent = "Solved";
 }
 
 function enter(input) {
-  if (!puzzle || !activeWord || fitted) return;
+  if (!puzzle || !activeWord) return;
   const model = puzzle, word = activeWord, initialPosition = selected, version = selectionVersion;
   edit(next => {
     if (!canOpen(model, next)) return;
@@ -329,7 +312,6 @@ function enter(input) {
       selected = input === "Backspace" || after.has(word) ? position
         : word.positions.slice(word.positions.indexOf(position) + 1).find(cell => !blocked.has(cell)) ?? position;
       const focusedCell = document.activeElement?.classList.contains("square");
-      revealSelection();
       if (focusedCell) cells.get(selected).square.focus({preventScroll:true});
     }
     return puzzle === model ? message : undefined;
@@ -395,7 +377,6 @@ document.addEventListener("keydown", event => {
     enter(event.key === "Backspace" ? event.key : event.key.toUpperCase());
   }
 });
-viewButton.addEventListener("click", () => setFit(!fitted));
 switchButton.addEventListener("click", () => selectCell(selected));
 document.querySelector(".skip").addEventListener("click", event => {
   event.preventDefault();
@@ -421,5 +402,5 @@ if (typeof ResizeObserver !== "undefined") {
   new ResizeObserver(() => {
     document.documentElement.style.setProperty("--header-height", header.offsetHeight + "px");
   }).observe(header);
-  new ResizeObserver(sizeOverview).observe(frame);
+  new ResizeObserver(fitGrid).observe(frame);
 }
