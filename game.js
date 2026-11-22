@@ -80,12 +80,13 @@ function makeModel(definition) {
 
 const models = puzzles.map(makeModel);
 function migrateGrids(saved) {
-  if (saved.compactGrids === 2) return saved;
+  if (saved.compactGrids === 3) return saved;
   for (const model of models) {
     const game = saved.games[model.id];
     if (!game) continue;
     const previous = game.letters || {};
-    const mapping = saved.compactGrids ? model.compactCells : model.legacyCells;
+    const mapping = saved.compactGrids === 2 ? model.denseCells
+      : saved.compactGrids ? model.compactCells : model.legacyCells;
     if (!mapping) continue;
     const letters = {};
     for (const [position, cell] of model.cells) {
@@ -102,7 +103,7 @@ function migrateGrids(saved) {
       saved.balance += 3;
     }
   }
-  saved.compactGrids = 2;
+  saved.compactGrids = 3;
   return saved;
 }
 
