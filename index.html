@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#f6f5f0">
+<link rel="manifest" href="./manifest.webmanifest">
+<link rel="apple-touch-icon" href="./icon-180.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<title>Word Tiles — English arrowwords</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="skip" href="#main-content">Skip to content</a><header><div class="bar"><a class="brand" href="#"><span class="logo" aria-hidden="true"><i></i><i></i><i></i><i></i></span>Word Tiles</a><div class="account"><span id="streak"></span><span class="balance" id="balance"></span><button class="outline" id="help">Rules</button></div></div></header>
+<main id="main-content" tabindex="-1">
+<section id="home" class="catalog" aria-labelledby="home-title">
+<div class="catalog-heading"><p class="eyebrow">English arrowwords</p><h1 id="home-title" tabindex="-1">Choose a category</h1></div>
+<nav class="category-cards" id="categories" aria-label="Puzzle categories"></nav>
+</section>
+<section id="catalog" class="catalog" aria-labelledby="catalog-title" hidden>
+<a class="back" href="#">All categories</a><h1 id="catalog-title" tabindex="-1"></h1>
+<p class="catalog-summary" id="catalog-summary" hidden></p>
+<nav class="puzzle-list" id="puzzle-list" aria-label="Puzzles"></nav>
+</section>
+<section id="game" class="game" aria-labelledby="title" hidden>
+<div class="game-top"><a class="back" id="back-to-list">Puzzle list</a><button class="outline" id="board-view" type="button" aria-pressed="false">Fit grid</button></div><h1 id="title" tabindex="-1"></h1>
+<div class="meta"><span id="progress"></span><span id="status" class="status" role="status"></span></div>
+<div class="frame" id="frame" tabindex="0" aria-label="Puzzle grid"><div class="board" id="board"></div></div>
+<div class="dock" id="dock" hidden>
+<div class="current"><div class="clue-copy" aria-live="polite"><span class="direction" id="direction"></span><strong id="current"></strong></div><button class="switch" id="switch-word" type="button" hidden></button></div>
+<div class="keyboard" id="keyboard" aria-label="On-screen keyboard"></div>
+<div class="actions"><button class="outline" id="hint">Reveal letter · 1 hint</button></div>
+</div>
+</section>
+</main>
+<dialog id="guide"><h2>How to play</h2><p>Tap a cell to see its clue above the keyboard. At a crossing, tap the same cell again or use the direction button. Correct words turn green and lock automatically. Use Fit grid to get an overview. Select a cell to return to the larger grid.</p><p>Easy, Normal, and Hard start with five unlocked puzzles each. Every puzzle you solve in one of those categories unlocks the next one in that category.</p><p>Earn 3 hints the first time you solve a puzzle. Daily streak rewards are 3 hints on days 1–2, 5 on days 3–4, and 7 from day 5 onward. Missing a day restarts the streak. Revealing a letter costs 1 hint.</p><p class="credits">Some clues adapted from <a href="wordnet-license.txt">Princeton WordNet</a>.</p><form method="dialog"><button class="outline" autofocus>Got it</button></form></dialog>
+<script src="puzzles.js" defer></script>
+<script src="game.js" defer></script>
+<script src="./install.js" defer></script>
+</body>
+</html>
