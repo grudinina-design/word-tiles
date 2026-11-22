@@ -2934,6 +2934,142 @@ const puzzles = [
     ]
   },
   {
+    "id": "cartoon-favorites", "category": "theme", "title": "Cartoon Favorites", "width": 11, "height": 12,
+    "words": [
+      ["BUGS", "Carrot-loving rabbit from Looney Tunes", 2, 1, "down"],
+      ["GRU", "The former villain who leads the Minions", 1, 4, "across"],
+      ["SMURF", "A little blue character from a village of mushroom houses", 4, 1, "down"],
+      ["SHREK", "Green ogre who lives in a swamp", 3, 2, "across"],
+      ["VELMA", "Mystery Inc. detective who wears glasses and an orange sweater", 7, 0, "down"],
+      ["DAFFY", "Looney Tunes duck with a lisp", 5, 5, "across"],
+      ["JERRY", "The mouse in Tom and ___", 10, 0, "down"],
+      ["FIONA", "Princess who marries Shrek", 8, 4, "down"],
+      ["SNOOPY", "Charlie Brown’s beagle", 4, 7, "across"],
+      ["DONKEY", "Shrek’s very talkative traveling companion", 6, 4, "down"],
+      ["TWEETY", "Yellow canary often chased by Sylvester", 0, 10, "across"],
+      ["ELMER", "First name of Bugs Bunny’s hapless hunter", 3, 6, "down"]
+    ]
+  },
+  {
+    "id": "pixar-favorites", "category": "theme", "title": "Pixar", "width": 8, "height": 11,
+    "words": [
+      ["DASH", "The Incredibles’ son with super speed", 1, 0, "down"],
+      ["DUG", "Talking golden retriever in Up", 0, 1, "across"],
+      ["SULLEY", "Blue, furry scarer who befriends Boo in Monsters, Inc.", 0, 3, "across"],
+      ["EVE", "White robot that WALL-E falls in love with", 5, 0, "down"],
+      ["LUCA", "Young sea monster who visits an Italian seaside town", 4, 2, "down"],
+      ["EDNA", "Superhero costume designer in The Incredibles", 0, 6, "across"],
+      ["COCO", "Pixar film about Miguel and the Land of the Dead", 3, 5, "across"],
+      ["BOO", "Nickname Sully gives the little girl in Monsters, Inc.", 7, 3, "down"],
+      ["NEMO", "Clownfish who gets separated from his father in a Pixar film", 3, 5, "down"],
+      ["MATER", "Tow truck who befriends Lightning McQueen", 2, 8, "across"],
+      ["REMY", "Rat who dreams of becoming a chef in Ratatouille", 6, 6, "down"],
+      ["JOY", "Yellow emotion who leads Riley’s team in Inside Out", 3, 10, "across"]
+    ]
+  },
+  {
+    "id": "nickelodeon-favorites", "category": "theme", "title": "Nickelodeon", "width": 10, "height": 11,
+    "words": [
+      ["SANDY", "The squirrel who lives in a glass dome in Bikini Bottom", 4, 6, "across"],
+      ["DORA", "Young explorer who travels with a monkey named Boots", 8, 5, "down"],
+      ["KORRA", "Avatar who follows Aang", 4, 8, "across"],
+      ["SOKKA", "Katara’s older brother in Avatar", 5, 5, "down"],
+      ["GARY", "SpongeBob’s pet snail", 3, 10, "across"],
+      ["COSMO", "Green-haired fairy godparent in The Fairly OddParents", 0, 7, "across"],
+      ["BOOTS", "Dora’s monkey friend, named for his red footwear", 2, 5, "down"],
+      ["TIMMY", "Boy who has Cosmo and Wanda as fairy godparents", 9, 1, "down"],
+      ["WANDA", "Pink-haired fairy godparent in The Fairly OddParents", 6, 1, "down"],
+      ["KATARA", "Waterbender who travels with her brother Sokka", 0, 3, "across"],
+      ["PEARL", "Mr. Krabs’s whale daughter", 4, 0, "down"],
+      ["TOPH", "Blind earthbender who invents metalbending", 1, 1, "across"]
+    ]
+  },
+  {
+    "id": "disney-favorites", "category": "theme", "title": "Disney", "width": 11, "height": 11,
+    "words": [
+      ["DONALD", "Disney duck who wears a sailor shirt and cap", 2, 7, "across"],
+      ["OLAF", "Snowman who dreams of summer in Frozen", 4, 6, "down"],
+      ["LILO", "Hawaiian girl who adopts a blue alien", 7, 6, "down"],
+      ["GOOFY", "Tall Disney character who wears a green hat and says “gawrsh”", 5, 10, "across"],
+      ["DAISY", "Donald Duck’s girlfriend", 10, 5, "down"],
+      ["SVEN", "Kristoff’s reindeer in Frozen", 5, 3, "down"],
+      ["STITCH", "Experiment 626, adopted by Lilo", 4, 4, "across"],
+      ["NALA", "Simba’s childhood friend and later his queen", 0, 9, "across"],
+      ["TIMON", "Meerkat who befriends Simba", 1, 4, "down"],
+      ["GENIE", "Magical character who grants wishes from Aladdin’s lamp", 7, 0, "down"],
+      ["MINNIE", "Mouse who often wears a polka-dot bow", 1, 2, "across"],
+      ["SIMBA", "Lion cub who grows up to rule the Pride Lands", 3, 0, "down"]
+    ]
+  },
+  {
+    "id": "princess-stories", "category": "theme", "title": "Princess Stories", "width": 10, "height": 11,
+    "words": [
+      ["BELLE", "Book-loving heroine who befriends the Beast", 4, 5, "down"],
+      ["ELSA", "Queen of Arendelle with the power to make ice and snow", 3, 10, "across"],
+      ["TIANA", "New Orleans heroine who dreams of opening a restaurant", 7, 5, "down"],
+      ["RAYA", "Heroine who searches for the last dragon", 5, 8, "across"],
+      ["GLASS", "Material Cinderella’s slipper is made of", 9, 5, "down"],
+      ["ARIEL", "Little Mermaid who collects human objects", 0, 7, "across"],
+      ["ANNA", "Elsa’s younger sister in Frozen", 1, 6, "down"],
+      ["TOWER", "Tall part of a castle where Rapunzel is kept", 2, 2, "down"],
+      ["MOANA", "Daughter of a chief who sails beyond her island’s reef", 0, 4, "across"],
+      ["MULAN", "Heroine who disguises herself as a soldier to take her father’s place", 5, 0, "down"],
+      ["AURORA", "The name of Disney’s Sleeping Beauty", 3, 2, "across"],
+      ["CROWN", "Jeweled headpiece worn by a king or queen", 8, 0, "down"]
+    ]
+  },
+  {
+    "id": "around-the-world", "category": "theme", "title": "Around the World", "width": 10, "height": 11,
+    "words": [
+      ["AMAZON", "South American river that flows through the world’s largest tropical rainforest", 1, 9, "across"],
+      ["ROME", "Italian capital home to the Colosseum", 3, 6, "down"],
+      ["LONDON", "City where you can see Big Ben", 6, 4, "down"],
+      ["BERLIN", "Capital of Germany", 0, 7, "across"],
+      ["OSLO", "Capital of Norway", 3, 5, "across"],
+      ["SEOUL", "Capital of South Korea", 4, 2, "down"],
+      ["ALPS", "European mountain range home to Mont Blanc", 0, 3, "across"],
+      ["CAIRO", "Capital of Egypt", 7, 0, "down"],
+      ["NILE", "River that flows through Cairo", 2, 0, "down"],
+      ["ANDES", "Mountain range running along western South America", 0, 1, "across"],
+      ["LIMA", "Capital of Peru", 5, 3, "across"],
+      ["SAHARA", "Vast desert across northern Africa", 9, 1, "down"]
+    ]
+  },
+  {
+    "id": "cars-and-brands", "category": "theme", "title": "Cars and Brands", "width": 10, "height": 11,
+    "words": [
+      ["SKODA", "Czech car brand that makes the Octavia", 9, 1, "down"],
+      ["FORD", "American brand that makes the Mustang", 5, 5, "across"],
+      ["VOLVO", "Swedish car brand that makes the XC90", 7, 0, "down"],
+      ["FIAT", "Italian car brand that makes the 500", 6, 4, "down"],
+      ["MINI", "British car brand known for the Cooper", 2, 6, "across"],
+      ["BENTLEY", "British luxury car brand that makes the Continental GT", 2, 8, "across"],
+      ["WIPER", "Moving strip that clears rain from a windshield", 4, 4, "down"],
+      ["PEDAL", "Control you press with your foot to brake or accelerate", 2, 3, "across"],
+      ["AUDI", "German brand with four interlocking rings in its logo", 5, 0, "down"],
+      ["JEEP", "Brand that makes the Wrangler", 8, 6, "down"],
+      ["HONDA", "Japanese brand behind the Civic", 0, 1, "across"],
+      ["HORN", "What a driver honks to make a warning sound", 1, 0, "down"]
+    ]
+  },
+  {
+    "id": "pets-at-home", "category": "theme", "title": "Pets at Home", "width": 11, "height": 11,
+    "words": [
+      ["PARROT", "Bird that can learn to copy human speech", 1, 8, "across"],
+      ["TAIL", "What a happy dog often wags", 3, 6, "down"],
+      ["LEASH", "Strap used to walk a dog", 2, 10, "across"],
+      ["FETCH", "Game in which a dog retrieves a thrown object", 7, 5, "down"],
+      ["CAGE", "Barred enclosure used for some small pets", 6, 9, "across"],
+      ["VET", "Short word for a doctor who treats animals", 10, 7, "down"],
+      ["HAMSTER", "Small pet rodent that often runs in a wheel", 5, 1, "down"],
+      ["MEOW", "The usual call of a cat", 4, 4, "across"],
+      ["BOWL", "Dish used to hold pet food or water", 8, 1, "down"],
+      ["BRUSH", "Grooming tool with bristles", 0, 2, "across"],
+      ["BUNNY", "An affectionate name for a rabbit", 1, 1, "down"],
+      ["PUPPY", "A young dog", 3, 0, "down"]
+    ]
+  },
+  {
     "category": "theme", "id": "ocean", "title": "Under the Sea", "width": 11, "height": 11,
     "legacyCells": {"15":[182,332],"16":[93,333],"17":[106,334],"18":[335],"19":[33,336],"20":[73,108,337],"21":[338],"23":[179,224],"24":[180],"25":[181],"26":[141,182,201,332],"31":[127,146],"37":[97,220],"38":[98],"39":[99],"40":[93,100,105,294,333],"41":[101],"42":[102,146],"43":[103],"46":[33,68,336],"51":[112],"53":[109,165],"57":[69],"59":[30],"60":[31,256],"61":[32],"62":[33,68,131,296,336],"63":[34],"68":[65,70],"71":[275],"73":[103,150],"79":[71],"82":[294],"84":[145,169,375],"85":[127,146],"86":[147],"87":[148,219,262],"89":[30],"90":[49,72],"91":[68],"92":[87],"93":[106,179,313,334],"101":[73,108],"104":[332],"113":[65,70],"114":[84],"115":[103,150,351],"116":[122],"117":[141,182,201,332],"118":[160],"119":[106,179]},
     "compactCells": {"15":[77,110],"16":[78],"17":[79],"18":[80],"19":[81],"20":[82,166],"21":[83],"23":[32,198],"24":[47],"25":[62],"26":[77,125],"31":[24,167],"37":[41,140],"38":[],"39":[],"40":[78,112],"41":[],"42":[168],"43":[],"46":[81,91],"51":[93],"53":[169,172],"57":[106],"59":[36],"60":[51],"61":[66],"62":[81,91,108,114],"63":[96],"68":[121],"71":[],"73":[123],"79":[136],"82":[],"84":[23,104,138],"85":[24,167],"86":[25],"87":[26,200],"89":[19],"90":[34,151],"91":[49],"92":[64],"93":[79,127],"101":[166],"104":[],"113":[121],"114":[122],"115":[123],"116":[124],"117":[77,125],"118":[126],"119":[127]},
