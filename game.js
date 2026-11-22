@@ -4,6 +4,8 @@ const byId = id => document.getElementById(id);
 const board = byId("board"), frame = byId("frame");
 const keyButtons = [];
 const switchButton = byId("switch-word");
+const hintButton = button("Hint", "hint-key", () => enter("reveal"));
+hintButton.setAttribute("aria-label", "Reveal letter for one hint");
 let memory, state, puzzle, category, cells, selected, activeWord, selectionVersion = 0;
 let pending = Promise.resolve();
 let gridColumns, gridRows;
@@ -70,7 +72,11 @@ function makeModel(definition) {
       cells.get(position).words.push(word);
     });
   }
-  return {...definition, words, cells};
+  const starts = [...new Set(words.map(word => word.positions[0]))].sort((a,b) => a - b);
+  const numbers = new Map(starts.map((position,i) => [position,i+1]));
+  for (const word of words) word.number = numbers.get(word.positions[0]);
+  words.sort((a,b) => a.number - b.number || a.direction.localeCompare(b.direction));
+  return {...definition, words, cells, numbers};
 }
 
 const models = puzzles.map(makeModel);
@@ -205,6 +211,7 @@ function loadGame() {
   cells = new Map([...puzzle.cells].map(([position, cell]) =>
     [position, {...cell, square:button("", "square", () => selectCell(position))}]
   ));
+  for (const [position, number] of puzzle.numbers) cells.get(position).square.dataset.number = number;
   const columns = [...cells.keys()].map(position => position % puzzle.width);
   const rows = [...cells.keys()].map(position => Math.floor(position / puzzle.width));
   const left = Math.min(...columns);
@@ -221,10 +228,9 @@ function loadGame() {
     blank.setAttribute("aria-hidden", "true");
     return blank;
   }));
-  selected = undefined;
-  activeWord = undefined;
-  selectionVersion++;
-  byId("dock").hidden = true;
+  const entries = getLetters(puzzle);
+  const solved = solvedWords(puzzle, entries);
+  chooseWord(puzzle.words.find(word => !solved.has(word)) || puzzle.words[0], entries, solved);
   gridZoom = 1;
   pinch = undefined;
   suppressTapUntil = 0;
@@ -293,6 +299,23 @@ frame.addEventListener("click", event => {
   }
 }, true);
 
+function chooseWord(word, entries, solved) {
+  activeWord = word;
+  const locked = lockedCells(solved);
+  const editable = word.positions.filter(position => !locked.has(position));
+  selected = editable.find(position => !entries[position]) ?? editable[0] ?? word.positions[0];
+  selectionVersion++;
+}
+
+function browseClue(offset) {
+  const words = puzzle.words;
+  const index = words.indexOf(activeWord);
+  const entries = getLetters(puzzle);
+  chooseWord(words[(index + offset + words.length) % words.length], entries, solvedWords(puzzle, entries));
+  render();
+  cells.get(selected).square.scrollIntoView({block:"nearest", inline:"nearest"});
+}
+
 function selectCell(position) {
   const choices = cells.get(position).words;
   const solved = solvedWords(puzzle, getLetters(puzzle));
@@ -333,12 +356,13 @@ function render(message) {
   }
   byId("dock").hidden = !activeWord;
   if (activeWord) {
-    byId("direction").textContent = activeWord.direction === "across" ? "Across →" : "Down ↓";
+    byId("direction").textContent = activeWord.number + (activeWord.direction === "across" ? " Across" : " Down");
     byId("current").textContent = activeWord.clue + " (" + activeWord.answer.length + ")";
     const otherWord = cells.get(selected).words.find(word => word !== activeWord);
     switchButton.hidden = !otherWord;
-    if (otherWord) switchButton.textContent = otherWord.direction === "across" ? "Switch to Across" : "Switch to Down";
-    byId("hint").disabled = !state.balance || locked.has(selected);
+    if (otherWord) switchButton.textContent = otherWord.direction === "across" ? "Across" : "Down";
+    if (otherWord) switchButton.setAttribute("aria-label", "Switch to " + switchButton.textContent);
+    hintButton.disabled = !state.balance || locked.has(selected);
     for (const key of keyButtons) key.disabled = solved.has(activeWord);
   }
   fitGrid();
@@ -414,6 +438,7 @@ for (const [group, label] of Object.entries(categories)) {
 for (const letters of ["QWERTYUIOP", "ASDFGHJKL", "ZXCVBNM"]) {
   const row = document.createElement("div");
   row.className = "keys";
+  if (letters === "ZXCVBNM") row.append(hintButton);
   for (const letter of letters) {
     const key = button(letter, "", () => enter(letter));
     keyButtons.push(key);
@@ -462,7 +487,8 @@ document.querySelector(".skip").addEventListener("click", event => {
   byId("main-content").focus();
 });
 byId("help").addEventListener("click", () => byId("guide").showModal());
-byId("hint").addEventListener("click", () => enter("reveal"));
+byId("previous-clue").addEventListener("click", () => browseClue(-1));
+byId("next-clue").addEventListener("click", () => browseClue(1));
 window.addEventListener("hashchange", () => navigate());
 window.addEventListener("storage", event => {
   if (event.key === storageKey) {
