@@ -11,7 +11,7 @@
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<a class="skip" href="#main-content">Skip to content</a><header><div class="bar"><a class="brand" href="#"><span class="logo" aria-hidden="true"><i></i><i></i><i></i><i></i></span>Word Tiles</a><div class="account"><span id="streak"></span><span class="balance" id="balance"></span><button class="outline" id="help">Rules</button></div></div></header>
+<a class="skip" href="#main-content">Skip to content</a><header><div class="bar"><a class="back" id="back-to-list" hidden>‹ Puzzle list</a><a class="brand" id="brand" href="#"><span class="logo" aria-hidden="true"><i></i><i></i><i></i><i></i></span>Word Tiles</a><div class="account"><span id="streak"></span><span class="balance" id="balance"></span><button class="outline" id="help">Rules</button></div></div></header>
 <main id="main-content" tabindex="-1">
 <section id="home" class="catalog" aria-labelledby="home-title">
 <div class="catalog-heading"><p class="eyebrow">English arrowwords</p><h1 id="home-title" tabindex="-1">Choose a category</h1></div>
@@ -23,15 +23,18 @@
 <nav class="puzzle-list" id="puzzle-list" aria-label="Puzzles"></nav>
 </section>
 <section id="game" class="game" aria-labelledby="title" hidden>
-<div class="game-top"><a class="back" id="back-to-list">Puzzle list</a><h1 id="title" tabindex="-1"></h1></div>
+<h1 class="sr-only" id="title" tabindex="-1"></h1>
 <div class="meta"><span id="progress"></span><span id="status" class="status" role="status"></span></div>
 <div class="frame" id="frame" tabindex="0" aria-label="Puzzle grid"><div class="board" id="board"></div></div>
 <div class="dock" id="dock" hidden>
 <div class="current">
 <button class="clue-nav" id="previous-clue" type="button" aria-label="Previous clue">‹</button>
 <div class="clue-body">
-<div class="clue-copy" aria-live="polite"><span class="direction" id="direction"></span><strong id="current"></strong></div>
+<div class="clue-heading">
+<span class="direction" id="direction"></span>
 <button class="switch" id="switch-word" type="button" hidden></button>
+</div>
+<div class="clue-copy" id="clue-copy" aria-live="polite" aria-atomic="true"><strong id="current"></strong></div>
 </div>
 <button class="clue-nav" id="next-clue" type="button" aria-label="Next clue">›</button>
 </div>

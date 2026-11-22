@@ -201,9 +201,12 @@ function navigate(focusHeading = true) {
   byId("home").hidden = Boolean(category);
   byId("catalog").hidden = !category || Boolean(puzzle);
   byId("game").hidden = !puzzle;
+  byId("back-to-list").hidden = !puzzle;
+  byId("brand").hidden = Boolean(puzzle);
+  byId("streak").hidden = Boolean(puzzle);
   if (puzzle) loadGame();
   render();
-  if (focusHeading) byId(puzzle ? "title" : category ? "catalog-title" : "home-title").focus();
+  if (focusHeading) byId(puzzle ? "title" : category ? "catalog-title" : "home-title").focus({preventScroll:true});
 }
 
 function loadGame() {
@@ -314,7 +317,14 @@ function browseClue(offset) {
   const entries = getLetters(puzzle);
   chooseWord(words[(index + offset + words.length) % words.length], entries, solvedWords(puzzle, entries));
   render();
-  cells.get(selected).square.scrollIntoView({block:"nearest", inline:"nearest"});
+  if (gridZoom > 1) {
+    const tile = cells.get(selected).square.getBoundingClientRect();
+    const viewport = frame.getBoundingClientRect();
+    frame.scrollLeft += Math.max(0, tile.right - viewport.left - frame.clientWidth)
+      + Math.min(0, tile.left - viewport.left);
+    frame.scrollTop += Math.max(0, tile.bottom - viewport.top - frame.clientHeight)
+      + Math.min(0, tile.top - viewport.top);
+  }
 }
 
 function selectCell(position) {
@@ -358,7 +368,12 @@ function render(message) {
   byId("dock").hidden = !activeWord;
   if (activeWord) {
     byId("direction").textContent = activeWord.number + (activeWord.direction === "across" ? " Across" : " Down");
-    byId("current").textContent = activeWord.clue + " (" + activeWord.answer.length + ")";
+    const clue = byId("current");
+    const definition = activeWord.clue + " (" + activeWord.answer.length + ")";
+    if (clue.textContent !== definition) {
+      clue.textContent = definition;
+      byId("clue-copy").scrollTop = 0;
+    }
     const otherWord = cells.get(selected).words.find(word => word !== activeWord);
     switchButton.hidden = !otherWord;
     if (otherWord) switchButton.textContent = otherWord.direction === "across" ? "Across" : "Down";
